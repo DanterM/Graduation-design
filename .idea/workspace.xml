@@ -10,17 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RandomForest修正.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest修正.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
@@ -32,6 +22,7 @@
         <option value="$PROJECT_DIR$/1、随机森林案例/决策树/决策树.py" />
         <option value="$PROJECT_DIR$/1、随机森林案例/RF3/阅读说明.txt" />
         <option value="$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest修正.py" />
+        <option value="$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/load_data_module.py" />
       </list>
     </option>
   </component>
@@ -59,12 +50,6 @@
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
               <item name="1、随机森林案例" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
-              <item name="1、随机森林案例" type="462c0819:PsiDirectoryNode" />
-              <item name="RF1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -77,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1、随机森林案例/RF4" />
       <recent name="$PROJECT_DIR$/2、随机森林-energydata数据集/参考论文" />
       <recent name="$PROJECT_DIR$/4、LM-GBM-SVM法计算RMSE、MAE、MAPE%/参考论文" />
       <recent name="$PROJECT_DIR$/1、随机森林案例/RF_RandomForest" />
       <recent name="$PROJECT_DIR$/1、随机森林案例/鸢尾花" />
-      <recent name="$PROJECT_DIR$/1、随机森林案例/泰坦尼克" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/6、CART" />
@@ -166,13 +151,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23802002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20431806" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" visible="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.28615072" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -186,6 +170,25 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.28615072" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20431806" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299389" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -234,9 +237,6 @@
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest0.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/sonar.all-data.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/其他/regTrees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -257,12 +257,48 @@
     <entry file="file://$PROJECT_DIR$/6、CART/datas.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest修正.py">
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/sonar.all-data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state>
+          <caret selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest修正.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/load_data_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RunningResult/ConsoleLog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6、CART/CART.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/randomForest.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

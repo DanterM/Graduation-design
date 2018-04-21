@@ -10,7 +10,7 @@ def load_csv(filename):
     dataset = list(lines)
     return dataset
 
-filename = 'D:\sonar.all-data.csv'
+filename = 'sonar.all-data.csv'
 dataset = load_csv(filename)
 print(dataset)
 print(len(dataset))
