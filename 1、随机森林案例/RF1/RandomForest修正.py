@@ -11,11 +11,6 @@ Solution:  Random Forest
 '''
 
 
-
-# asdfsadfa
-
-
-
 # 引入需要的包
 # 数据处理的常用包
 import numpy as np
