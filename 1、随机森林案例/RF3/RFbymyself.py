@@ -84,8 +84,8 @@ def get_best_spilt(dataSet,n_features):
             loss=spilt_loss(left,right,class_values)
             if loss < b_loss:
                 b_index,b_value,b_loss,b_left,b_right=index,row[index],loss,left,right
-    #print b_loss
-    #print type(b_index)
+    # print (b_loss)
+    # print (type(b_index))
     return {'index':b_index,'value':b_value,'left':b_left,'right':b_right}
 
 #决定输出标签
@@ -171,7 +171,9 @@ def accuracy(predict_values,actual):
         
 if __name__=='__main__':
     seed(1)
-    dataSet=loadCSV('sonar-all-data.csv')
+    # dataSet=loadCSV('sonar-all-data.csv')
+    dataSet = loadCSV('energydata_complete.csv')
+
     column_to_float(dataSet)
     n_folds=5
     max_depth=15
