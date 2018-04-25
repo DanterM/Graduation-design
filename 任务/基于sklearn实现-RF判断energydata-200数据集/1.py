@@ -4,6 +4,12 @@ import numpy as np
 from random import randrange
 from csv import reader
 
+
+
+# 基于不纯度对模型进行排序有几点需要注意：
+# （1）基于不纯度降低的特征选择将会偏向于选择那些具有较多类别的变量（bias）。
+# （2）当存在相关特征时，一个特征被选择后，与其相关的其他特征的重要度则会变得很低，因为他们可以减少的不纯度已经被前面的特征移除了。
+
 #Load boston housing dataset as an example
 # boston = load_boston()
 # X = boston["data"]
@@ -40,11 +46,11 @@ Y = load_csv(target)[0]
 feature = 'feature_names-10.csv'
 names = load_csv(feature)[0]
 
-# print(load_csv(data))
+print(load_csv(data))
 
 # 正常是一维数组
-# print(load_csv(target)[0])
-# print(load_csv(feature)[0])
+print(load_csv(target)[0])
+print(load_csv(feature)[0])
 
 
 

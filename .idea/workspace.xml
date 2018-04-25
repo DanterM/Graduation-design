@@ -14,17 +14,29 @@
       <file leaf-file-name="RFbymyself.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/RFbymyself.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2308">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/1.py">
+      <file leaf-file-name="1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="543">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boston.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/boston.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -69,13 +81,18 @@
         <option value="$PROJECT_DIR$/1、随机森林案例/RF3/energydata_complete.csv" />
         <option value="$PROJECT_DIR$/任务/4-26日前-RF运行energydata/1.py" />
         <option value="$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/1.py" />
+        <option value="$PROJECT_DIR$/任务/基于不纯度实现-RF判断energydata-200数据集/2.py" />
+        <option value="$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/1.py" />
+        <option value="$PROJECT_DIR$/任务/测量每种特征对模型准确率的影响-RF判断energydata-200数据集/2.py" />
+        <option value="$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/boston.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="960" />
     <option name="y" value="23" />
-    <option name="width" value="1085" />
-    <option name="height" value="747" />
+    <option name="width" value="960" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,6 +136,18 @@
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
               <item name="任务" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="任务" type="462c0819:PsiDirectoryNode" />
+              <item name="基于sklearn实现-RF判断energydata-200数据集" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="任务" type="462c0819:PsiDirectoryNode" />
+              <item name="测量每种特征对模型准确率的影响-RF判断energydata-200数据集" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,11 +167,11 @@
       <recent name="$PROJECT_DIR$/1、随机森林案例/RF_RandomForest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/任务/测量每种特征对模型准确率的影响-RF判断energydata-200数据集" />
+      <recent name="$PROJECT_DIR$/任务/基于不纯度实现-RF判断energydata-200数据集" />
       <recent name="$PROJECT_DIR$/任务/4-26日前-RF运行energydata" />
       <recent name="$PROJECT_DIR$/1、随机森林案例/RF3" />
       <recent name="$PROJECT_DIR$/2、随机森林-energydata数据集/参考论文" />
-      <recent name="$PROJECT_DIR$/任务/RF运行energydata" />
-      <recent name="$PROJECT_DIR$/6、CART" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,8 +186,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
-    <configuration name="随机森林可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.2">
+    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,11 +195,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1、随机森林案例/决策树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1、随机森林案例/决策树/随机森林可视化.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +241,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="RF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,11 +249,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1、随机森林案例/RF2/RF" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/任务/测量每种特征对模型准确率的影响-RF判断energydata-200数据集" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/任务/测量每种特征对模型准确率的影响-RF判断energydata-200数据集/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,7 +277,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="load_data_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="boston" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,11 +285,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/load_data_module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/boston.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,18 +297,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.1" />
-      <item itemvalue="Python.随机森林可视化" />
-      <item itemvalue="Python.RF" />
-      <item itemvalue="Python.load_data_module" />
       <item itemvalue="Python.RFbymyself" />
+      <item itemvalue="Python.2" />
+      <item itemvalue="Python.1 (1)" />
+      <item itemvalue="Python.boston" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2" />
+        <item itemvalue="Python.1 (1)" />
+        <item itemvalue="Python.boston" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.RFbymyself" />
-        <item itemvalue="Python.load_data_module" />
-        <item itemvalue="Python.RF" />
-        <item itemvalue="Python.随机森林可视化" />
       </list>
     </recent_temporary>
   </component>
@@ -297,13 +326,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="986" extended-state="6" />
+    <frame x="960" y="23" width="960" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1790416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26411074" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.408776" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.31408775" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -385,7 +414,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/1.py">
+    <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
@@ -419,7 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/1.py">
+    <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
@@ -556,13 +585,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/feature_names-10.csv">
+    <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/feature_names-10.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/target-200.csv">
+    <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/target-200.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/data-200.csv">
+    <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/data-200.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2591" />
       </provider>
@@ -577,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/RFbymyself.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2308">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata/rf-energydata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
@@ -594,10 +616,44 @@
     <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata/target-energydata_complete.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata-200数据集/1.py">
+    <entry file="file://$PROJECT_DIR$/任务/测量每种特征对模型准确率的影响-RF判断energydata-200数据集/data-200.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="270">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/RFbymyself.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/测量每种特征对模型准确率的影响-RF判断energydata-200数据集/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/基于sklearn实现-RF判断energydata-200数据集/boston.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
