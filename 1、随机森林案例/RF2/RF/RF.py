@@ -120,7 +120,7 @@ def predict(node, row):
             return predict(node['right'], row)
         else:
             return node['right']
-        
+
 # 决策树，也就是说这次集成学习是在决策树基础上进行的
 def decision_tree(train, test, max_depth, min_size):
     # 使用训练集构建一个决策树
@@ -176,7 +176,7 @@ def evaluate_algorithm(dataset, algorithm, n_folds, *args):
 ################# 随机森林测试 开始 #################
 # 开始
 # 加载数据
-filename = 'D:\sonar.all-data.csv'
+filename = '../iDataSet/sonar.all-data.csv'
 dataset = load_csv(filename)
 # print(dataset)
 # 转换数据类型

@@ -84,8 +84,7 @@ treeClassifier.score(x_test, y_test)
 """
 
 import itertools
-from sklearn.metrics
-import confusion_matrixdef
+from sklearn.metrics import confusion_matrixdef
 plot_confusion_matrix(cm, classes, normalize=False):
 cmap = plt.cm.Blues
 title = "Confusion Matrix"

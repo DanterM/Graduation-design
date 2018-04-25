@@ -9,4 +9,3 @@ sys.setdefualtencoding('utf8')
 Competition URL: https://www.kaggle.com/c/digit-recognizer
 Solution:  Random Forest
 '''
-
