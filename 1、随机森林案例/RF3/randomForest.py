@@ -5,6 +5,7 @@ from random import randrange
 from csv import reader
 from math import sqrt
 from math import log
+
 # Load a CSV file
 def load_csv(filename):  #导入csv文件
     dataset = list()
@@ -20,7 +21,8 @@ def load_csv(filename):  #导入csv文件
 def str_column_to_float(dataset, column):  #将数据集的第column列转换成float形式
     for row in dataset:
         row[column] = float(row[column].strip())  #strip()返回移除字符串头尾指定的字符生成的新字符串。
-        
+
+
 # Convert string column to integer
 def str_column_to_int(dataset, column):    #将最后一列表示标签的值转换为Int类型0,1,...
     class_values = [row[column] for row in dataset]

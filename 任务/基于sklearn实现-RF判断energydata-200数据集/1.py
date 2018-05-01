@@ -46,11 +46,11 @@ Y = load_csv(target)[0]
 feature = 'feature_names-10.csv'
 names = load_csv(feature)[0]
 
-print(load_csv(data))
+# print(load_csv(data))
 
 # 正常是一维数组
-print(load_csv(target)[0])
-print(load_csv(feature)[0])
+# print(load_csv(target)[0])
+# print(load_csv(feature)[0])
 
 
 
