@@ -39,12 +39,12 @@ def load_csv(filename):  #导入csv文件
 #         for column in range(featLen):
 #             data[column]=float(data[column].strip())
 
-data = 'data-200.csv'
+data = 'data.csv'
 X= load_csv(data)
 print(X)
-target = 'target-200.csv'
+target = 'target.csv'
 Y = load_csv(target)[0]
-feature = 'feature_names-10.csv'
+feature = 'feature.csv'
 names = load_csv(feature)[0]
 
 # print(load_csv(data))
