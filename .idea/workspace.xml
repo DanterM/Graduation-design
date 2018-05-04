@@ -10,58 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="feature.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/feature.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="feature_names-10.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/feature_names-10.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="4" column="159" lean-forward="true" selection-start-line="4" selection-start-column="159" selection-end-line="4" selection-end-column="159" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-200.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/data-200.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="102" column="62" lean-forward="true" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -223,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3 (1)">
+  <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -341,9 +290,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.3 (1)" />
         <item itemvalue="Python.3" />
-        <item itemvalue="Python.1" />
         <item itemvalue="Python.2" />
         <item itemvalue="Python.RandomForest修正" />
       </list>
@@ -363,14 +312,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23678647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19641916" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32793018" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.4127182" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.4127182" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -701,9 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/feature.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/target.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -714,24 +659,10 @@
     <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/target-200.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/feature_names-10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/data-200.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="102" column="62" lean-forward="true" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="4" column="159" lean-forward="true" selection-start-line="4" selection-start-column="159" selection-end-line="4" selection-end-column="159" />
         </state>
       </provider>
     </entry>
@@ -744,10 +675,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="144">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="4" column="159" lean-forward="true" selection-start-line="4" selection-start-column="159" selection-end-line="4" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/feature_names-10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/feature.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
