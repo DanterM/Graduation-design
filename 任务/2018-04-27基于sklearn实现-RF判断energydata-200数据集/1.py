@@ -41,9 +41,11 @@ def load_csv(filename):  #导入csv文件
 
 data = 'data-200.csv'
 X= load_csv(data)
-print(X)
+# print(X)
 target = 'target-200.csv'
+
 Y = load_csv(target)[0]
+# print(Y)
 feature = 'feature_names-10.csv'
 names = load_csv(feature)[0]
 
@@ -63,9 +65,6 @@ print(sorted(zip(map(lambda x: round(x, 4), rf.feature_importances_), names),rev
 
 
 # 处理数据集
-
-
-
 
 
 

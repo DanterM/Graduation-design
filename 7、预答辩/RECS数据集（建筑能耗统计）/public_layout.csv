@@ -1,0 +1,932 @@
+Variable Name,Variable Label,Variable Order in File,Variable Type,Length
+DOEID,Unique identifier for each respondent,1,Character,5
+REGIONC,Census Region,2,Numeric,8
+DIVISION,Census Division,3,Numeric,8
+REPORTABLE_DOMAIN,Reportable states and groups of states,4,Numeric,8
+TYPEHUQ,Type of housing unit,5,Numeric,8
+NWEIGHT,Final sample weight,6,Numeric,8
+HDD65,"Heating degree days in 2009, base temperature 65F",7,Numeric,8
+CDD65,"Cooling degree days in 2009, base temperature 65F",8,Numeric,8
+HDD30YR,"Heating degree days, 30-year average 1981-2010, base 65F",9,Numeric,8
+CDD30YR,"Cooling degree days, 30-year average 1981-2010, base 65F",10,Numeric,8
+Climate_Region_Pub,Building America Climate Region (collapsed for public file),11,Numeric,8
+AIA_Zone,"AIA Climate Zone, based on average temperatures from 1981 - 2010",12,Numeric,8
+METROMICRO,Housing unit in Census Metropolitan Statistical Area or Micropolitan Statistical Area,13,Character,5
+UR,Housing unit classified as urban or rural by Census,14,Character,1
+KOWNRENT,"Housing unit is owned, rented, or occupied without payment of rent",15,Numeric,8
+CONDCOOP,Housing unit part of condominium or cooperative,16,Numeric,8
+YEARMADE,Year housing unit was built,17,Numeric,8
+YEARMADERANGE,Year range when housing unit was built,18,Numeric,8
+OCCUPYYRANGE,Year range when household moved in,19,Numeric,8
+CONVERSION,Converted 2-4 unit apartment building,20,Numeric,8
+ORIG1FAM,Converted 2-4 unit apartment building was originally a single-family house,21,Numeric,8
+LOOKLIKE,Converted 2-4 unit apartment building more like single family house or apartment building,22,Numeric,8
+NUMFLRS,Number of floors in a 5+ unit apartment building,23,Numeric,8
+NUMAPTS,Number of apartment units in a 5+ unit apartment building,24,Numeric,8
+WALLTYPE,Major outside wall material,25,Numeric,8
+ROOFTYPE,Major roofing material,26,Numeric,8
+STUDIO,Studio apartment,27,Numeric,8
+NAPTFLRS,Number of floors in an apartment (Number of levels in housing unit that is an apartment),28,Numeric,8
+STORIES,Number of stories in a single-family home,29,Numeric,8
+TYPEHUQ4,Addition to a mobile home,30,Numeric,8
+BEDROOMS,Number of bedrooms,31,Numeric,8
+NCOMBATH,Number of full bathrooms,32,Numeric,8
+NHAFBATH,Number of half bathrooms,33,Numeric,8
+OTHROOMS,Number of rooms other than bedroom(s) and bathroom(s),34,Numeric,8
+TOTROOMS,Total number of rooms in the housing unit,35,Numeric,8
+CELLAR,Basement in housing unit,36,Numeric,8
+CRAWL,Housing unit over a crawl space,37,Numeric,8
+CONCRETE,Housing unit over a concrete slab,38,Numeric,8
+BASEFIN,Finished basement,39,Numeric,8
+FINBASERMS,Number of finished rooms in the basement,40,Numeric,8
+BASEHEAT,Heating used in basement,41,Numeric,8
+BASEHT2,All or partial basement heating,42,Numeric,8
+PCTBSTHT,Portion of the basement which is heated,43,Numeric,8
+BASECOOL,Cooling used in basement,44,Numeric,8
+BASECL2,All or partial basement cooling,45,Numeric,8
+PCTBSTCL,Portion of the basement which is cooled,46,Numeric,8
+BASEUSE,Portion of basement exclusively used by housing unit in apartment building with 2-4 units,47,Numeric,8
+ATTIC,Attic in housing unit,48,Numeric,8
+ATTICFIN,Finished attic,49,Numeric,8
+FINATTRMS,Number of finished rooms in the attic,50,Numeric,8
+ATTCHEAT,Heating used in attic,51,Numeric,8
+ATTCHT2,All or partial attic heating,52,Numeric,8
+PCTATTHT,Portion of the attic which is heated,53,Numeric,8
+ATTCCOOL,Cooling used in attic,54,Numeric,8
+ATTCCL2,All or partial attic cooling,55,Numeric,8
+PCTATTCL,Portion of the attic which is cooled,56,Numeric,8
+ATTICUSE,Portion of attic exclusively used by housing unit in apartment building with 2-4 units,57,Numeric,8
+PRKGPLC1,Attached garage,58,Numeric,8
+SIZEOFGARAGE,Size of attached garage,59,Numeric,8
+GARGLOC,Location of attached garage,60,Numeric,8
+GARGHEAT,Heating used in attached garage,61,Numeric,8
+GARGCOOL,Cooling used in attached garage,62,Numeric,8
+PRKGPLC2,Detached garage or carport,63,Numeric,8
+SIZEOFDETACH,Size of detached garage or carport,64,Numeric,8
+OUTLET,Outlet within 20 feet of vehicle parking,65,Numeric,8
+ZKOWNRENT,Imputation flag for KOWNRENT,66,Numeric,8
+ZCONDCOOP,Imputation flag for CONDCOOP,67,Numeric,8
+ZYEARMADE,Imputation flag for YEARMADE,68,Numeric,8
+ZYEARMADERANGE,Imputation flag for YEARMADERANGE,69,Numeric,8
+ZOCCUPYYRANGE,Imputation flag for OCCUPYYRANGE,70,Numeric,8
+ZCONVERSION,Imputation flag for CONVERSION,71,Numeric,8
+ZORIG1FAM,Imputation flag for ORIG1FAM,72,Numeric,8
+ZLOOKLIKE,Imputation flag for LOOKLIKE,73,Numeric,8
+ZNUMFLRS,Imputation flag for NUMFLRS,74,Numeric,8
+ZNUMAPTS,Imputation flag for NUMAPTS,75,Numeric,8
+ZWALLTYPE,Imputation flag for WALLTYPE,76,Numeric,8
+ZROOFTYPE,Imputation flag for ROOFTYPE,77,Numeric,8
+ZSTUDIO,Imputation flag for STUDIO,78,Numeric,8
+ZNAPTFLRS,Imputation flag for NAPTFLRS,79,Numeric,8
+ZSTORIES,Imputation flag for STORIES,80,Numeric,8
+ZTYPEHUQ4,Imputation flag for TYPEHUQ4,81,Numeric,8
+ZBEDROOMS,Imputation flag for BEDROOMS,82,Numeric,8
+ZNCOMBATH,Imputation flag for NCOMBATH,83,Numeric,8
+ZNHAFBATH,Imputation flag for NHAFBATH,84,Numeric,8
+ZOTHROOMS,Imputation flag for OTHROOMS,85,Numeric,8
+ZCELLAR,Imputation flag for CELLAR,86,Numeric,8
+ZCRAWL,Imputation flag for CRAWL,87,Numeric,8
+ZCONCRETE,Imputation flag for CONCRETE,88,Numeric,8
+ZBASEFIN,Imputation flag for BASEFIN,89,Numeric,8
+ZFINBASERMS,Imputation flag for FINBASERMS,90,Numeric,8
+ZBASEHEAT,Imputation flag for BASEHEAT,91,Numeric,8
+ZBASEHT2,Imputation flag for BASEHT2,92,Numeric,8
+ZPCTBSTHT,Imputation flag for PCTBSTHT,93,Numeric,8
+ZBASECOOL,Imputation flag for BASECOOL,94,Numeric,8
+ZBASECL2,Imputation flag for BASECL2,95,Numeric,8
+ZPCTBSTCL,Imputation flag for PCTBSTCL,96,Numeric,8
+ZBASEUSE,Imputation flag for BASEUSE,97,Numeric,8
+ZATTIC,Imputation flag for ATTIC,98,Numeric,8
+ZATTICFIN,Imputation flag for ATTICFIN,99,Numeric,8
+ZFINATTRMS,Imputation flag for FINATTRMS,100,Numeric,8
+ZATTCHEAT,Imputation flag for ATTCHEAT,101,Numeric,8
+ZATTCHT2,Imputation flag for ATTCHT2,102,Numeric,8
+ZPCTATTHT,Imputation flag for PCTATTHT,103,Numeric,8
+ZATTCCOOL,Imputation flag for ATTCCOOL,104,Numeric,8
+ZPCTATTCL,Imputation flag for PCTATTCL,105,Numeric,8
+ZATTCCL2,Imputation flag for ATTCCL2,106,Numeric,8
+ZATTICUSE,Imputation flag for ATTICUSE,107,Numeric,8
+ZPRKGPLC1,Imputation flag for PRKGPLC1,108,Numeric,8
+ZSIZEOFGARAGE,Imputation flag for SIZEOFGARAGE,109,Numeric,8
+ZGARGLOC,Imputation flag for GARGLOC,110,Numeric,8
+ZGARGHEAT,Imputation flag for GARGHEAT,111,Numeric,8
+ZGARGCOOL,Imputation flag for GARGCOOL,112,Numeric,8
+ZPRKGPLC2,Imputation flag for PRKGPLC2,113,Numeric,8
+ZSIZEOFDETACH,Imputation flag for SIZEOFDETACH,114,Numeric,8
+STOVEN,Number of stoves (one appliance with cooktop and an oven),115,Numeric,8
+STOVENFUEL,Fuel used by most-used stove,116,Numeric,8
+STOVE,Number of separate cooktops,117,Numeric,8
+STOVEFUEL,Fuel used by most-used separate cooktop,118,Numeric,8
+OVEN,Number of separate ovens,119,Numeric,8
+OVENFUEL,Fuel used by separate oven,120,Numeric,8
+OVENUSE,Frequency of oven use,121,Numeric,8
+OVENCLN,Self-cleaning oven,122,Numeric,8
+TYPECLN,Continuous or manual cleaning cycle for most-used oven,123,Numeric,8
+MICRO,Microwave oven used,124,Numeric,8
+AMTMICRO,Microwave usage,125,Numeric,8
+DEFROST,Microwave used for defrosting,126,Numeric,8
+OUTGRILL,Outdoor grill used,127,Numeric,8
+OUTGRILLFUEL,Fuel used by outdoor grill,128,Numeric,8
+TOPGRILL,Built-in indoor grill used,129,Numeric,8
+STGRILA,Fuel used by built-in indoor grill,130,Numeric,8
+TOASTER,Toaster used,131,Numeric,8
+NUMMEAL,Frequency hot meals are cooked,132,Numeric,8
+FUELFOOD,Most-used cooking fuel,133,Numeric,8
+COFFEE,Coffee maker used,134,Numeric,8
+NUMFRIG,Number of refrigerators used,135,Numeric,8
+TYPERFR1,Door arrangement of most-used refrigerator,136,Numeric,8
+SIZRFRI1,Size of most-used refrigerator,137,Numeric,8
+REFRIGT1,Defrosting type of most-used refrigerator,138,Numeric,8
+ICE,Through-the-door ice and water on most-used refrigerator,139,Numeric,8
+AGERFRI1,Age of most-used refrigerator,140,Numeric,8
+ESFRIG,Energy Star most-used refrigerator,141,Numeric,8
+REPLCFRI,Most-used refrigerator replaced by this household in the last 4 years,142,Numeric,8
+HELPFRI,Assistance for replacing most-used refrigerator,143,Numeric,8
+HELPFRIY,Year of assistance for most-used refrigerator,144,Numeric,8
+TYPERFR2,Door arrangement of second most-used refrigerator,145,Numeric,8
+SIZRFRI2,Size of second most-used refrigerator,146,Numeric,8
+REFRIGT2,Defrosting type of second most-used refrigerator,147,Numeric,8
+MONRFRI2,Number of months second most-used refrigerator used in 2009,148,Numeric,8
+AGERFRI2,Age of second most-used refrigerator,149,Numeric,8
+ESFRIG2,Energy Star second most-used refrigerator,150,Numeric,8
+TYPERFR3,Door arrangements of third most-used refrigerator,151,Numeric,8
+SIZRFRI3,Size of third most-used refrigerator,152,Numeric,8
+REFRIGT3,Defrosting type of third most-used refrigerator,153,Numeric,8
+MONRFRI3,Number of months third most-used refrigerator used in 2009,154,Numeric,8
+AGERFRI3,Age of third most-used refrigerator,155,Numeric,8
+ESFRIG3,Energy Star third most-used refrigerator,156,Numeric,8
+SEPFREEZ,Separate freezer used,157,Numeric,8
+NUMFREEZ,Number of separate freezers used,158,Numeric,8
+UPRTFRZR,Type of most-used freezer,159,Numeric,8
+SIZFREEZ,Size of most-used freezer,160,Numeric,8
+FREEZER,Defrosting type for most-used freezer,161,Numeric,8
+AGEFRZR,Age of most-used freezer,162,Numeric,8
+REPLCFRZ,Most-used freezer replaced by this household in the last 4 years,163,Numeric,8
+HELPFRZ,Assistance for replacing most-used freezer,164,Numeric,8
+HELPFRZY,Year of assistance for most-used freezer,165,Numeric,8
+UPRTFRZR2,Type of second most-used freezer,166,Numeric,8
+SIZFREEZ2,Size of second most-used freezer,167,Numeric,8
+FREEZER2,Defrosting type for second most-used freezer,168,Numeric,8
+AGEFRZR2,Age of second most-used freezer,169,Numeric,8
+DISHWASH,Dishwasher used,170,Numeric,8
+DWASHUSE,Frequency dishwasher used,171,Numeric,8
+AGEDW,Age of dishwasher,172,Numeric,8
+ESDISHW,Energy Star dishwasher,173,Numeric,8
+REPLCDW,Dishwasher replaced by this household in the last 4 years,174,Numeric,8
+HELPDW,Assistance for replacing dishwasher,175,Numeric,8
+HELPDWY,Year of assistance for dishwasher,176,Numeric,8
+ZSTOVEN,Imputation flag for STOVEN,177,Numeric,8
+ZSTOVENFUEL,Imputation flag for STOVENFUEL,178,Numeric,8
+ZSTOVE,Imputation flag for STOVE,179,Numeric,8
+ZSTOVEFUEL,Imputation flag for STOVEFUEL,180,Numeric,8
+ZOVEN,Imputation flag for OVEN,181,Numeric,8
+ZOVENFUEL,Imputation flag for OVENFUEL,182,Numeric,8
+ZOVENUSE,Imputation flag for OVENUSE,183,Numeric,8
+ZOVENCLN,Imputation flag for OVENCLN,184,Numeric,8
+ZTYPECLN,Imputation flag for TYPECLN,185,Numeric,8
+ZMICRO,Imputation flag for MICRO,186,Numeric,8
+ZAMTMICRO,Imputation flag for AMTMICRO,187,Numeric,8
+ZDEFROST,Imputation flag for DEFROST,188,Numeric,8
+ZOUTGRILL,Imputation flag for OUTGRILL,189,Numeric,8
+ZOUTGRILLFUEL,Imputation flag for OUTGRILL,190,Numeric,8
+ZTOPGRILL,Imputation flag for TOPGRILL,191,Numeric,8
+ZSTGRILA,Imputation flag for STGRILA,192,Numeric,8
+ZTOASTER,Imputation flag for TOASTER,193,Numeric,8
+ZNUMMEAL,Imputation flag for NUMMEAL,194,Numeric,8
+ZFUELFOOD,Imputation flag for FUELFOOD,195,Numeric,8
+ZCOFFEE,Imputation flag for COFFEE,196,Numeric,8
+ZNUMFRIG,Imputation flag for NUMFRIG,197,Numeric,8
+ZTYPERFR1,Imputation flag for TYPERFR1,198,Numeric,8
+ZSIZRFRI1,Imputation flag for SIZRFRI1,199,Numeric,8
+ZREFRIGT1,Imputation flag for REFRIGT1,200,Numeric,8
+ZICE,Imputation flag for ICE,201,Numeric,8
+ZAGERFRI1,Imputation flag for AGERFRI1,202,Numeric,8
+ZTYPERFR2,Imputation flag for TYPERFR2,203,Numeric,8
+ZSIZRFRI2,Imputation flag for SIZRFRI2,204,Numeric,8
+ZREFRIGT2,Imputation flag for REFRIGT2,205,Numeric,8
+ZMONRFRI2,Imputation flag for MONRFRI2,206,Numeric,8
+ZAGERFRI2,Imputation flag for AGERFRI2,207,Numeric,8
+ZTYPERFR3,Imputation flag for TYPERFR3,208,Numeric,8
+ZSIZRFRI3,Imputation flag for SIZRFRI3,209,Numeric,8
+ZREFRIGT3,Imputation flag for REFRIGT3,210,Numeric,8
+ZMONRFRI3,Imputation flag for MONRFRI3,211,Numeric,8
+ZAGERFRI3,Imputation flag for AGERFRI3,212,Numeric,8
+ZSEPFREEZ,Imputation flag for SEPFREEZ,213,Numeric,8
+ZNUMFREEZ,Imputation flag for NUMFREEZ,214,Numeric,8
+ZUPRTFRZR,Imputation flag for UPRTFRZR,215,Numeric,8
+ZSIZFREEZ,Imputation flag for SIZFREEZ,216,Numeric,8
+ZFREEZER,Imputation flag for FREEZER,217,Numeric,8
+ZAGEFRZR,Imputation flag for AGEFRZR,218,Numeric,8
+ZUPRTFRZR2,Imputation flag for UPRTFRZR2,219,Numeric,8
+ZSIZFREEZ2,Imputation flag for SIZFREEZ2,220,Numeric,8
+ZFREEZER2,Imputation flag for FREEZER2,221,Numeric,8
+ZAGEFRZR2,Imputation flag for AGEFRZR2,222,Numeric,8
+ZDISHWASH,Imputation flag for DISHWASH,223,Numeric,8
+ZDWASHUSE,Imputation flag for DWASHUSE,224,Numeric,8
+ZAGEDW,Imputation flag for AGEDW,225,Numeric,8
+CWASHER,Clothes washer used in home,226,Numeric,8
+TOPFRONT,Top or front loading clothes washer used in home,227,Numeric,8
+WASHLOAD,Frequency clothes washer used,228,Numeric,8
+WASHTEMP,Water temperature used for clothes washer wash cycle,229,Numeric,8
+RNSETEMP,Water temperature used for clothes washer rinse cycle,230,Numeric,8
+AGECWASH,Age of clothes washer,231,Numeric,8
+ESCWASH,Energy Star clothes washer,232,Numeric,8
+REPLCCW,Clothes washer replaced by this household in the last 4 years,233,Numeric,8
+HELPCW,Assistance for replacing clothes washer,234,Numeric,8
+HELPCWY,Year of assistance for the clothes washer,235,Numeric,8
+DRYER,Clothes dryer used in home,236,Numeric,8
+DRYRFUEL,Fuel used by clothes dryer,237,Numeric,8
+DRYRUSE,Frequency clothes dryer used,238,Numeric,8
+AGECDRYER,Age of clothes dryer,239,Numeric,8
+TVCOLOR,Number of televisions used,240,Numeric,8
+TVSIZE1,Size of most-used TV,241,Numeric,8
+TVTYPE1,Display type of most-used TV,242,Numeric,8
+CABLESAT1,Cable box or satellite box connected to the most-used TV,243,Numeric,8
+COMBODVR1,DVR built into the cable box or satellite box connected to the most-used TV,244,Numeric,8
+DVR1,Separate DVR connected to the most-used TV,245,Numeric,8
+DIGITSTB1,Digital converter box connected to the most-used TV,246,Numeric,8
+PLAYSTA1,Video game console connected to the most-used TV,247,Numeric,8
+COMBOVCRDVD1,Combo VCR/DVD connected to the most-used TV,248,Numeric,8
+VCR1,VCR connected to the most-used TV,249,Numeric,8
+DVD1,DVD player connected to the most-used TV,250,Numeric,8
+TVAUDIOSYS1,Home theater system connected to the most-used TV,251,Numeric,8
+OTHERSTB1,Other set-top box connected to the most-used TV,252,Numeric,8
+TVONWD1,Most-used TV usage on weekdays,253,Numeric,8
+TVONWDWATCH1,Most-used TV weekday usage spent playing video games,254,Numeric,8
+TVONWE1,Most-used TV usage on weekends,255,Numeric,8
+TVONWEWATCH1,Most-used TV weekend usage spent playing video games,256,Numeric,8
+TVSIZE2,Size of second most-used TV,257,Numeric,8
+TVTYPE2,Display type of second most-used TV,258,Numeric,8
+CABLESAT2,Cable box or satellite box connected to the second most-used TV,259,Numeric,8
+COMBODVR2,DVR built into the cable box or satellite box connected to the second most-used TV,260,Numeric,8
+DVR2,Separate DVR connected to the second most-used TV,261,Numeric,8
+DIGITSTB2,Digital converter box connected to the second most-used TV,262,Numeric,8
+PLAYSTA2,Video game console connected to the second most-used TV,263,Numeric,8
+COMBOVCRDVD2,Combo VCR/DVD connected to the second most-used TV,264,Numeric,8
+VCR2,VCR connected to the second most-used TV,265,Numeric,8
+DVD2,DVD player connected to the second most-used TV,266,Numeric,8
+TVAUDIOSYS2,Home theater system connected to the second most-used TV,267,Numeric,8
+OTHERSTB2,Other set-top box connected to the second most-used TV,268,Numeric,8
+TVONWD2,Second most-used TV usage on weekdays,269,Numeric,8
+TVONWDWATCH2,Second most-used TV weekday usage spent playing video games,270,Numeric,8
+TVONWE2,Second most-used TV usage on weekends,271,Numeric,8
+TVONWEWATCH2,Second most-used TV weekend usage spent playing video games,272,Numeric,8
+TVSIZE3,Size of third most-used TV size,273,Numeric,8
+TVTYPE3,Display type of third most-used TV,274,Numeric,8
+CABLESAT3,Cable box or satellite box connected to the third most-used TV,275,Numeric,8
+COMBODVR3,DVR built into the cable box or satellite box connected to the third most-used TV,276,Numeric,8
+DVR3,Separate DVR connected to the third most-used TV,277,Numeric,8
+DIGITSTB3,Digital converter box connected to the third most-used TV,278,Numeric,8
+PLAYSTA3,Video game console connected to the third most-used TV,279,Numeric,8
+COMBOVCRDVD3,Combo VCR/DVD connected to the third most-used TV,280,Numeric,8
+VCR3,VCR connected to the third most-used TV,281,Numeric,8
+DVD3,DVD player connected to the third most-used TV,282,Numeric,8
+TVAUDIOSYS3,Home theater system connected to the third most-used TV,283,Numeric,8
+OTHERSTB3,Other set-top box connected to the third most-used TV,284,Numeric,8
+TVONWD3,Third most-used TV usage on weekdays,285,Numeric,8
+TVONWDWATCH3,Third most-used TV weekday usage spent playing video games,286,Numeric,8
+TVONWE3,Third most-used TV usage on weekends,287,Numeric,8
+TVONWEWATCH3,Third most-used TV weekend usage spent playing video games,288,Numeric,8
+COMPUTER,Computer used at home,289,Numeric,8
+NUMPC,Number of computers used,290,Numeric,8
+PCTYPE1,Most-used computer - desktop or laptop,291,Numeric,8
+MONITOR1,Monitor type of most-used computer,292,Numeric,8
+TIMEON1,Daily usage of most-used computer,293,Numeric,8
+PCONOFF1,Turn off most-used computer when not in use,294,Numeric,8
+PCSLEEP1,Sleep or standby mode for most-used computer when not in use,295,Numeric,8
+PCTYPE2,Second most-used computer - desktop or laptop,296,Numeric,8
+MONITOR2,Monitor type of second most-used computer,297,Numeric,8
+TIMEON2,Daily usage of second most-used computer,298,Numeric,8
+PCONOFF2,Turn off second most-used computer when not in use,299,Numeric,8
+PCSLEEP2,Sleep or standby mode for second most-used computer when not in use,300,Numeric,8
+PCTYPE3,Third most-used computer - desktop or laptop,301,Numeric,8
+MONITOR3,Monitor type of third most-used computer,302,Numeric,8
+TIMEON3,Daily usage of third most-used computer,303,Numeric,8
+PCONOFF3,Turn off third most-used computer when not in use,304,Numeric,8
+PCSLEEP3,Sleep or standby mode for third most-used computer when not in use,305,Numeric,8
+INTERNET,Internet access at home,306,Numeric,8
+INDIALUP,Dial-up internet access,307,Numeric,8
+INDSL,DSL or Fiber Optic internet access,308,Numeric,8
+INCABLE,Cable internet access,309,Numeric,8
+INSATEL,Satellite internet access,310,Numeric,8
+INWIRELESS,Wireless internet in home,311,Numeric,8
+PCPRINT,Number of printers used,312,Numeric,8
+FAX,Separate fax machine used,313,Numeric,8
+COPIER,Separate copy machine used,314,Numeric,8
+WELLPUMP,Well water pump used,315,Numeric,8
+DIPSTICK,Automotive block or engine heater or battery blanket used,316,Numeric,8
+SWAMPCOL,Evaporative cooler used,317,Numeric,8
+AQUARIUM,Large heated aquarium used,318,Numeric,8
+STEREO,Stereo equipment used,319,Numeric,8
+NOCORD,Cordless telephone used,320,Numeric,8
+ANSMACH,Answering machine used,321,Numeric,8
+BATTOOLS,Number of rechargeable tools and appliances used,322,Numeric,8
+BATCHRG,Charging patterns for rechargeable tools and appliances,323,Numeric,8
+CHRGPLGT,Chargers for rechargeable tools and appliances left plugged into wall,324,Numeric,8
+ELECDEV,Number of rechargeable electronic devices used,325,Numeric,8
+ELECCHRG,Charging patterns for rechargeable electronic devices,326,Numeric,8
+CHRGPLGE,Chargers for rechargeable electronic devices left plugged into wall,327,Numeric,8
+ZCWASHER,Imputation flag for CWASHER,328,Numeric,8
+ZTOPFRONT,Imputation flag for TOPFRONT,329,Numeric,8
+ZWASHLOAD,Imputation flag for WASHLOAD,330,Numeric,8
+ZWASHTEMP,Imputation flag for WASHTEMP,331,Numeric,8
+ZRNSETEMP,Imputation flag for RNSETEMP,332,Numeric,8
+ZAGECWASH,Imputation flag for AGECWASH,333,Numeric,8
+ZDRYER,Imputation flag for DRYER,334,Numeric,8
+ZDRYRFUEL,Imputation flag for DRYRFUEL,335,Numeric,8
+ZDRYRUSE,Imputation flag for DRYRUSE,336,Numeric,8
+ZAGECDRYER,Imputation flag for AGECDRYER,337,Numeric,8
+ZTVCOLOR,Imputation flag for TVCOLOR,338,Numeric,8
+ZTVSIZE1,Imputation flag for TVSIZE1,339,Numeric,8
+ZTVTYPE1,Imputation flag for TVTYPE1,340,Numeric,8
+ZCABLESAT1,Imputation flag for CABLESAT1,341,Numeric,8
+ZCOMBODVR1,Imputation flag for COMBODVR1,342,Numeric,8
+ZDVR1,Imputation flag for DVR1,343,Numeric,8
+ZDIGITSTB1,Imputation flag for DIGITSTB1,344,Numeric,8
+ZPLAYSTA1,Imputation flag for PLAYSTA1,345,Numeric,8
+ZCOMBOVCRDVD1,Imputation flag for COMBOVCRDVD1,346,Numeric,8
+ZVCR1,Imputation flag for VCR1,347,Numeric,8
+ZDVD1,Imputation flag for DVD1,348,Numeric,8
+ZTVAUDIOSYS1,Imputation flag for TVAUDIOSYS1,349,Numeric,8
+ZOTHERSTB1,Imputation flag for OTHERSTB1,350,Numeric,8
+ZTVONWD1,Imputation flag for TVONWD1,351,Numeric,8
+ZTVONWDWATCH1,Imputation flag for TVONWDWATCH1,352,Numeric,8
+ZTVONWE1,Imputation flag for TVONWE1,353,Numeric,8
+ZTVONWEWATCH1,Imputation flag for TVONWEWATCH1,354,Numeric,8
+ZTVSIZE2,Imputation flag for TVSIZE2,355,Numeric,8
+ZTVTYPE2,Imputation flag for TVTYPE2,356,Numeric,8
+ZCABLESAT2,Imputation flag for CABLESAT2,357,Numeric,8
+ZCOMBODVR2,Imputation flag for COMBODVR2,358,Numeric,8
+ZDVR2,Imputation flag for DVR2,359,Numeric,8
+ZDIGITSTB2,Imputation flag for DIGITSTB2,360,Numeric,8
+ZPLAYSTA2,Imputation flag for PLAYSTA2,361,Numeric,8
+ZCOMBOVCRDVD2,Imputation flag for COMBOVCRDVD2,362,Numeric,8
+ZVCR2,Imputation flag for VCR2,363,Numeric,8
+ZDVD2,Imputation flag for DVD2,364,Numeric,8
+ZTVAUDIOSYS2,Imputation flag for TVAUDIOSYS2,365,Numeric,8
+ZOTHERSTB2,Imputation flag for OTHERSTB2,366,Numeric,8
+ZTVONWD2,Imputation flag for TVONWD2,367,Numeric,8
+ZTVONWDWATCH2,Imputation flag for TVONWDWATCH2,368,Numeric,8
+ZTVONWE2,Imputation flag for TVONWE2,369,Numeric,8
+ZTVONWEWATCH2,Imputation flag for TVONWEWATCH2,370,Numeric,8
+ZTVSIZE3,Imputation flag for TVSIZE3,371,Numeric,8
+ZTVTYPE3,Imputation flag for TVTYPE3,372,Numeric,8
+ZCABLESAT3,Imputation flag for CABLESAT3,373,Numeric,8
+ZCOMBODVR3,Imputation flag for COMBODVR3,374,Numeric,8
+ZDVR3,Imputation flag for DVR3,375,Numeric,8
+ZDIGITSTB3,Imputation flag for DIGITSTB3,376,Numeric,8
+ZPLAYSTA3,Imputation flag for PLAYSTA3,377,Numeric,8
+ZCOMBOVCRDVD3,Imputation flag for COMBOVCRDVD3,378,Numeric,8
+ZVCR3,Imputation flag for VCR3,379,Numeric,8
+ZDVD3,Imputation flag for DVD3,380,Numeric,8
+ZTVAUDIOSYS3,Imputation flag for TVAUDIOSYS3,381,Numeric,8
+ZOTHERSTB3,Imputation flag for OTHERSTB3,382,Numeric,8
+ZTVONWD3,Imputation flag for TVONWD3,383,Numeric,8
+ZTVONWDWATCH3,Imputation flag for TVONWDWATCH3,384,Numeric,8
+ZTVONWE3,Imputation flag for TVONWE3,385,Numeric,8
+ZTVONWEWATCH3,Imputation flag for TVONWEWATCH3,386,Numeric,8
+ZCOMPUTER,Imputation flag for COMPUTER,387,Numeric,8
+ZNUMPC,Imputation flag for NUMPC,388,Numeric,8
+ZPCTYPE1,Imputation flag for PCTYPE1,389,Numeric,8
+ZMONITOR1,Imputation flag for MONITOR1,390,Numeric,8
+ZTIMEON1,Imputation flag for TIMEON1,391,Numeric,8
+ZPCONOFF1,Imputation flag for PCONOFF1,392,Numeric,8
+ZPCSLEEP1,Imputation flag for PCSLEEP1,393,Numeric,8
+ZPCTYPE2,Imputation flag for PCTYPE2,394,Numeric,8
+ZMONITOR2,Imputation flag for MONITOR2,395,Numeric,8
+ZTIMEON2,Imputation flag for TIMEON2,396,Numeric,8
+ZPCONOFF2,Imputation flag for PCONOFF2,397,Numeric,8
+ZPCSLEEP2,Imputation flag for PCSLEEP2,398,Numeric,8
+ZPCTYPE3,Imputation flag for PCTYPE3,399,Numeric,8
+ZMONITOR3,Imputation flag for MONITOR3,400,Numeric,8
+ZTIMEON3,Imputation flag for TIMEON3,401,Numeric,8
+ZPCONOFF3,Imputation flag for PCONOFF3,402,Numeric,8
+ZPCSLEEP3,Imputation flag for PCSLEEP3,403,Numeric,8
+ZINTERNET,Imputation flag for INTERNET,404,Numeric,8
+ZINDIALUP,Imputation flag for INDIALUP,405,Numeric,8
+ZINDSL,Imputation flag for INDSL,406,Numeric,8
+ZINCABLE,Imputation flag for INCABLE,407,Numeric,8
+ZINSATEL,Imputation flag for INSATEL,408,Numeric,8
+ZINWIRELESS,Imputation flag for INWIRELESS,409,Numeric,8
+ZPCPRINT,Imputation flag for PCPRINT,410,Numeric,8
+ZFAX,Imputation flag for FAX,411,Numeric,8
+ZCOPIER,Imputation flag for COPIER,412,Numeric,8
+ZWELLPUMP,Imputation flag for WELLPUMP,413,Numeric,8
+ZDIPSTICK,Imputation flag for DIPSTICK,414,Numeric,8
+ZSWAMPCOL,Imputation flag for SWAMPCOL,415,Numeric,8
+ZAQUARIUM,Imputation flag for AQUARIUM,416,Numeric,8
+ZSTEREO,Imputation flag for STEREO,417,Numeric,8
+ZNOCORD,Imputation flag for NOCORD,418,Numeric,8
+ZANSMACH,Imputation flag for ANSMACH,419,Numeric,8
+ZBATTOOLS,Imputation flag for BATTOOLS,420,Numeric,8
+ZBATCHRG,Imputation flag for BATCHRG,421,Numeric,8
+ZCHRGPLGT,Imputation flag for CHRGPLGT,422,Numeric,8
+ZELECDEV,Imputation flag for ELECDEV,423,Numeric,8
+ZELECCHRG,Imputation flag for ELECCHRG,424,Numeric,8
+ZCHRGPLGE,Imputation flag for CHRGPLGE,425,Numeric,8
+HEATHOME,Space heating equipment used,426,Numeric,8
+DNTHEAT,"No space heating equipment, or unused space heating equipment",427,Numeric,8
+EQUIPNOHEAT,Unused space heating equipment type,428,Numeric,8
+FUELNOHEAT,Fuel for unused space heating equipment,429,Numeric,8
+EQUIPM,Type of main space heating equpiment used,430,Numeric,8
+FUELHEAT,Main space heating fuel,431,Numeric,8
+MAINTHT,Routine service or maintenance performed on main space heating equipment,432,Numeric,8
+EQUIPAGE,Age of main space heating equipment,433,Numeric,8
+REPLCHT,Main space heating equipment replaced by this household in the last 4 years,434,Numeric,8
+HELPHT,Assistance for replacing or maintaining main space heating equipment,435,Numeric,8
+HELPHTY,Year of assistance for main space heating equipment,436,Numeric,8
+HEATOTH,"Main space heating equipment heats other homes, business, or farm",437,Numeric,8
+EQUIPAUX,Secondary space heating equipment used,438,Numeric,8
+REVERSE,Heat pump used for secondary space heating,439,Numeric,3
+WARMAIR,Central warm-air furnace used for secondary space heating,440,Numeric,3
+FURNFUEL,Fuel used by warm-air furnace for secondary space heating,441,Numeric,8
+STEAMR,Hot water system used for secondary space heating,442,Numeric,3
+RADFUEL,Fuel used by hot water system for secondary space heating,443,Numeric,8
+PERMELEC,Built-in electric units used for secondary space heating,444,Numeric,3
+PIPELESS,Pipeless furnace used for secondary space heating,445,Numeric,3
+PIPEFUEL,Fuel used by pipeless furnace for secondary space heating,446,Numeric,8
+ROOMHEAT,Built-in room heaters used for secondary space hearing,447,Numeric,3
+RMHTFUEL,Fuel used by built-in electric units for secondary space heating,448,Numeric,8
+WOODKILN,Heating stove used for secondary space heating,449,Numeric,3
+HSFUEL,Fuel used by heating stove for secondary space heating,450,Numeric,8
+CARRYEL,Portable electric heaters used for secondary space heating,451,Numeric,3
+CARRYKER,Portable kerosene heaters used for secondary space heating,452,Numeric,3
+CHIMNEY,Fireplace used for secondary space heating,453,Numeric,3
+FPFUEL,Fuel used by fireplace for secondary space heating,454,Numeric,8
+NGFPFLUE,Flue on gas fireplace,455,Numeric,8
+USENGFP,Frequency gas fireplace used,456,Numeric,8
+RANGE,Cooking stove used for secondary space heating,457,Numeric,3
+RNGFUEL,Fuel used by cooking stove for secondary space heating,458,Numeric,8
+DIFEQUIP,Other equipment used for secondary space heating,459,Numeric,3
+DIFFUEL,Fuel used by other secondary space heating equipment,460,Numeric,8
+EQMAMT,Portion of space heating provided by main space heating equipment (for homes with main and secondary heating only),461,Numeric,8
+HEATROOM,Number of rooms heated,462,Numeric,8
+THERMAIN,Thermostat(s) for heating equipment,463,Numeric,8
+NUMTHERM,Number of thermostats,464,Numeric,8
+PROTHERM,Programmable main thermostat,465,Numeric,8
+AUTOHEATNITE,Programmable thermostat lowers temperature at night,466,Numeric,8
+AUTOHEATDAY,Programmable thermostat lowers temperature during the day,467,Numeric,8
+TEMPHOME,Temperature when someone is home during the day (winter),468,Numeric,8
+TEMPGONE,Temperature when no on is home during the day (winter),469,Numeric,8
+TEMPNITE,Temperature at night (winter),470,Numeric,8
+MOISTURE,Humidifier used,471,Numeric,8
+USEMOISTURE,Number of months humidifier used in 2009,472,Numeric,8
+ZHEATHOME,Imputation flag for HEATHOME,473,Numeric,8
+ZDNTHEAT,Imputation flag for DNTHEAT,474,Numeric,8
+ZEQUIPNOHEAT,Imputation flag for EQUIPNOHEAT,475,Numeric,8
+ZFUELNOHEAT,Imputation flag for FUELNOHEAT,476,Numeric,8
+ZEQUIPM,Imputation flag for EQUIPM,477,Numeric,8
+ZFUELHEAT,Imputation flag for FUELHEAT,478,Numeric,8
+ZMAINTHT,Imputation flag for MAINTHT,479,Numeric,8
+ZEQUIPAGE,Imputation flag for EQUIPAGE,480,Numeric,8
+ZHEATOTH,Imputation flag for HEATOTH,481,Numeric,8
+ZFURNFUEL,Imputation flag for FURNFUEL,482,Numeric,8
+ZRADFUEL,Imputation flag for RADFUEL,483,Numeric,8
+ZPIPEFUEL,Imputation flag for PIPEFUEL,484,Numeric,8
+ZRMHTFUEL,Imputation flag for RMHTFUEL,485,Numeric,8
+ZHSFUEL,Imputation flag for HSFUEL,486,Numeric,8
+ZFPFUEL,Imputation flag for FPFUEL,487,Numeric,8
+ZNGFPFLUE,Imputation flag for NGFPFLUE,488,Numeric,8
+ZUSENGFP,Imputation flag for USENGFP,489,Numeric,8
+ZRNGFUEL,Imputation flag for RNGFUEL,490,Numeric,8
+ZDIFFUEL,Imputation flag for DIFFUEL,491,Numeric,8
+ZEQMAMT,Imputation flag for EQMAMT,492,Numeric,8
+ZHEATROOM,Imputation flag for HEATROOM,493,Numeric,8
+ZTHERMAIN,Imputation flag for THERMAIN,494,Numeric,8
+ZNUMTHERM,Imputation flag for NUMTHERM,495,Numeric,8
+ZPROTHERM,Imputation flag for PROTHERM,496,Numeric,8
+ZAUTOHEATNITE,Imputation flag for AUTOHEATNITE,497,Numeric,8
+ZAUTOHEATDAY,Imputation flag for AUTOHEATDAY,498,Numeric,8
+ZTEMPHOME,Imputation flag for TEMPHOME,499,Numeric,8
+ZTEMPGONE,Imputation flag for TEMPGONE,500,Numeric,8
+ZTEMPNITE,Imputation flag for TEMPNITE,501,Numeric,8
+ZMOISTURE,Imputation flag for MOISTURE,502,Numeric,8
+ZUSEMOISTURE,Imputation flag for USEMOISTURE,503,Numeric,8
+NUMH2ONOTNK,Number of tankless water heaters,504,Numeric,8
+NUMH2OHTRS,Number of storage water heaters,505,Numeric,8
+H2OTYPE1,Type of main water heater,506,Numeric,8
+FUELH2O,Fuel used by main water heater,507,Numeric,8
+WHEATOTH,Main water heater is used by more than one housing unit,508,Numeric,8
+WHEATSIZ,Main water heater size (if storage tank),509,Numeric,8
+WHEATAGE,Main water heater age,510,Numeric,8
+WHEATBKT,Blanket around the main water heater (if storage tank),511,Numeric,8
+HELPWH,Assistance for purchasing the water heater blanket,512,Numeric,8
+HELPWHY,Year of the assistance for purchasing the water heater blanket,513,Numeric,8
+H2OTYPE2,Type of secondary water heater,514,Numeric,8
+FUELH2O2,Fuel used by secondary water heater,515,Numeric,8
+WHEATSIZ2,Secondary water heater size (if storage tank),516,Numeric,8
+WHEATAGE2,Secondary water heater age,517,Numeric,8
+ZNUMH2OHTRS,Imputation flag for NUMH2OHTRS,518,Numeric,8
+ZNUMH2ONOTNK,Imputation flag for NUMH2ONOTNK,519,Numeric,8
+ZH2OTYPE1,Imputation flag for H2OTYPE1,520,Numeric,8
+ZFUELH2O,Imputation flag for FUELH2O,521,Numeric,8
+ZWHEATOTH,Imputation flag for WHEATOTH,522,Numeric,8
+ZWHEATSIZ,Imputation flag for WHEATSIZ,523,Numeric,8
+ZWHEATAGE,Imputation flag for WHEATAGE,524,Numeric,8
+ZWHEATBKT,Imputation flag for WHEATBKT,525,Numeric,8
+ZH2OTYPE2,Imputation flag for H2OTYPE2,526,Numeric,8
+ZFUELH2O2,Imputation flag for FUELH2O2,527,Numeric,8
+ZWHEATSIZ2,Imputation flag for WHEATSIZ2,528,Numeric,8
+ZWHEATAGE2,Imputation flag for WHEATAGE2,529,Numeric,8
+AIRCOND,Air conditioning equipment used,530,Numeric,8
+DNTAC,"No air conditioning equipment, or unused air conditioning equipment",531,Numeric,8
+COOLTYPENOAC,Type of unused air conditioning equipment,532,Numeric,8
+COOLTYPE,Type of air conditioning equipment used,533,Numeric,8
+DUCTS,Ducts for space heating and air conditioning,534,Numeric,8
+CENACHP,Central air conditioner is a heat pump,535,Numeric,8
+ACOTHERS,"Central air conditioner cools other homes, business, or farm",536,Numeric,8
+MAINTAC,Routine service or maintenance performed on central air conditioner,537,Numeric,8
+AGECENAC,Age of central air conditioner,538,Numeric,8
+REPLCCAC,Central air conditioner replaced by this household in the last 4 years,539,Numeric,8
+HELPCAC,Assistance for maintaining or replacing central air conditioner,540,Numeric,8
+HELPCACY,Year of assistance for central air conditioner,541,Numeric,8
+ACROOMS,Number of rooms cooled,542,Numeric,8
+USECENAC,Frequency central air conditioner used in summer 2009,543,Numeric,8
+THERMAINAC,Thermostat for central air conditioner,544,Numeric,8
+PROTHERMAC,Programmable thermostat for central air conditioner,545,Numeric,8
+AUTOCOOLNITE,Programmable thermostat adjusts temperature at night,546,Numeric,8
+AUTOCOOLDAY,Programmable thermostat adjusts temperature during the day,547,Numeric,8
+TEMPHOMEAC,Temperature when someone is home during the day (summer),548,Numeric,8
+TEMPGONEAC,Temperature when no on is home during the day (summer),549,Numeric,8
+TEMPNITEAC,Temperature at night (summer),550,Numeric,8
+NUMBERAC,Number of window/wall air conditioning units used,551,Numeric,8
+WWACAGE,Age of most-used window/wall air conditioning unit,552,Numeric,8
+ESWWAC,Energy Star most-used window/wall air conditioning unit,553,Numeric,8
+REPLCWWAC,Most-used window/wall air conditioning unit replaced by this household in the last 4 years,554,Numeric,8
+HELPWWAC,Assistance for most-used window/wall air conditioning unit,555,Numeric,8
+HELPWWACY,Year of assistance for most-used window/wall air conditioning unit,556,Numeric,8
+USEWWAC,Frequency most-used window/wall air conditioning unit used in summer 2009,557,Numeric,8
+NUMCFAN,Number of ceiling fans used,558,Numeric,8
+USECFAN,Frequency most-used ceiling fan used in summer 2009,559,Numeric,8
+TREESHAD,Housing unit shaded from sun by large trees,560,Numeric,8
+NOTMOIST,Dehumidifier used,561,Numeric,8
+USENOTMOIST,Number of months dehumidifier used in 2009,562,Numeric,8
+ZAIRCOND,Imputation flag for AIRCOND,563,Numeric,8
+ZDNTAC,Imputation flag for DNTAC,564,Numeric,8
+ZCOOLTYPENOAC,Imputation flag for COOLTYPENOAC,565,Numeric,8
+ZCOOLTYPE,Imputation flag for COOLTYPE,566,Numeric,8
+ZDUCTS,Imputation flag for DUCTS,567,Numeric,8
+ZCENACHP,Imputation flag for CENACHP,568,Numeric,8
+ZACOTHERS,Imputation flag for ACOTHERS,569,Numeric,8
+ZMAINTAC,Imputation flag for MAINTAC,570,Numeric,8
+ZAGECENAC,Imputation flag for AGECENAC,571,Numeric,8
+ZUSECENAC,Imputation flag for USECENAC,572,Numeric,8
+ZACROOMS,Imputation flag for ACROOMS,573,Numeric,8
+ZTHERMAINAC,Imputation flag for THERMAINAC,574,Numeric,8
+ZPROTHERMAC,Imputation flag for PROTHERMAC,575,Numeric,8
+ZAUTOCOOLNITE,Imputation flag for AUTOCOOLNITE,576,Numeric,8
+ZAUTOCOOLDAY,Imputation flag for AUTOCOOLDAY,577,Numeric,8
+ZTEMPHOMEAC,Imputation flag for TEMPHOMEAC,578,Numeric,8
+ZTEMPGONEAC,Imputation flag for TEMPGONEAC,579,Numeric,8
+ZTEMPNITEAC,Imputation flag for TEMPNITEAC,580,Numeric,8
+ZNUMBERAC,Imputation flag for NUMBERAC,581,Numeric,8
+ZWWACAGE,Imputation flag for WWACAGE,582,Numeric,8
+ZUSEWWAC,Imputation flag for USEWWAC,583,Numeric,8
+ZNUMCFAN,Imputation flag for NUMCFAN,584,Numeric,8
+ZUSECFAN,Imputation flag for USECFAN,585,Numeric,8
+ZTREESHAD,Imputation flag for TREESHAD,586,Numeric,8
+ZNOTMOIST,Imputation flag for NOTMOIST,587,Numeric,8
+ZUSENOTMOIST,Imputation flag for USENOTMOIST,588,Numeric,8
+HIGHCEIL,High ceilings,589,Numeric,8
+CATHCEIL,Cathedral ceilings,590,Numeric,8
+SWIMPOOL,Swimming pool,591,Numeric,8
+POOL,Heated swimming pool,592,Numeric,8
+FUELPOOL,Fuel used for heating swimming pool,593,Numeric,8
+RECBATH,Hot tub used,594,Numeric,8
+FUELTUB,Fuel used for heating hot tub,595,Numeric,8
+LGT12,Number of lights turned on 12 or more hours during a typical summer day,596,Numeric,8
+LGT12EE,Number of energy-efficient bulbs for lights turned on 12 or more hours during a typical summer day,597,Numeric,8
+LGT4,Number of lights turned on 4 to 12 hours during a typical summer day,598,Numeric,8
+LGT4EE,Number of energy-efficient bulbs for lights turned on 4 to 12 hours during a typical summer day,599,Numeric,8
+LGT1,Number of lights turned on 1 to 4 hours during a typical summer day,600,Numeric,8
+LGT1EE,Number of energy-efficient bulbs for lights turned on 1 to 4 hours during a typical summer day,601,Numeric,8
+NOUTLGTNT,Number of outdoor lights left on all night,602,Numeric,8
+LGTOEE,Number of energy-efficient bulbs for outdoor lights left on all night,603,Numeric,8
+NGASLIGHT,Number of outdoor lights left on all night that use natural gas,604,Numeric,8
+INSTLCFL,Energy-efficient bulbs installed by this household,605,Numeric,8
+HELPCFL,Assistance for energy-efficient light bulbs,606,Numeric,8
+HELPCFLY,Year of assistance for energy-efficient light bulbs,607,Numeric,8
+SLDDRS,Sliding glass doors in heated areas,608,Numeric,8
+DOOR1SUM,Number of sliding glass doors in heated areas,609,Numeric,8
+WINDOWS,Number of windows in heated areas,610,Numeric,8
+TYPEGLASS,Type of glass in most windows,611,Numeric,8
+NEWGLASS,Windows replaced by this household,612,Numeric,8
+HELPWIN,Assistance for window replacement,613,Numeric,8
+HELPWINY,Year of assistance for window replacement,614,Numeric,8
+ADQINSUL,Level of insulation (respondent reported),615,Numeric,8
+INSTLINS,Insulation added by this household,616,Numeric,8
+AGEINS,Year of added insulation,617,Numeric,8
+HELPINS,Assistance for added insulation,618,Numeric,8
+HELPINSY,Year of assistance for added insulation,619,Numeric,8
+DRAFTY,Is home too drafty in the winter? (respondent reported),620,Numeric,8
+INSTLWS,Caulking or weather stripping by this household,621,Numeric,8
+AGEWS,Year of caulking or weather stripping,622,Numeric,8
+HELPWS,Assistance for caulking or weather stripping,623,Numeric,8
+HELPWSY,Year of assistance for caulking or weather stripping,624,Numeric,8
+AUDIT,Home energy audit,625,Numeric,8
+AGEAUD,Year of home energy audit,626,Numeric,8
+HELPAUD,Assistance for home energy audit,627,Numeric,8
+HELPAUDY,Year of assistance for home energy audit,628,Numeric,8
+ZHIGHCEIL,Imputation flag for HIGHCEIL,629,Numeric,8
+ZCATHCEIL,Imputation flag for CATHCEIL,630,Numeric,8
+ZSWIMPOOL,Imputation flag for SWIMPOOL,631,Numeric,8
+ZPOOL,Imputation flag for POOL,632,Numeric,8
+ZFUELPOOL,Imputation flag for FUELPOOL,633,Numeric,8
+ZRECBATH,Imputation flag for RECBATH,634,Numeric,8
+ZFUELTUB,Imputation flag for FUELTUB,635,Numeric,8
+ZLGT12,Imputation flag for LGT12,636,Numeric,8
+ZLGT4,Imputation flag for LGT4,637,Numeric,8
+ZLGT1,Imputation flag for LGT1,638,Numeric,8
+ZNOUTLGTNT,Imputation flag for NOUTLGTNT,639,Numeric,8
+ZNGASLIGHT,Imputation flag for NGASLIGHT,640,Numeric,8
+ZSLDDRS,Imputation flag for SLDDRS,641,Numeric,8
+ZDOOR1SUM,Imputation flag for DOOR1SUM,642,Numeric,8
+ZWINDOWS,Imputation flag for WINDOWS,643,Numeric,8
+ZTYPEGLASS,Imputation flag for TYPEGLASS,644,Numeric,8
+ZNEWGLASS,Imputation flag for NEWGLASS,645,Numeric,8
+ZADQINSUL,Imputation flag for ADQINSUL,646,Numeric,8
+ZINSTLINS,Imputation flag for INSTLINS,647,Numeric,8
+ZAGEINS,Imputation flag for AGEINS,648,Numeric,8
+ZDRAFTY,Imputation flag for DRAFTY,649,Numeric,8
+ZINSTLWS,Imputation flag for INSTLWS,650,Numeric,8
+ZAGEWS,Imputation flag for AGEWS,651,Numeric,8
+ZAUDIT,Imputation flag for AUDIT,652,Numeric,8
+ZAGEAUD,Imputation flag for AGEAUD,653,Numeric,8
+USEEL,Electricity is used in home,654,Numeric,3
+USENG,Natural gas is used in home,655,Numeric,3
+USELP,Propane is used in home,656,Numeric,3
+USEFO,Fuel oil is used in home,657,Numeric,3
+USEKERO,Kerosene is used in home,658,Numeric,3
+USEWOOD,Wood is used in home,659,Numeric,3
+USESOLAR,Solar is used in home,660,Numeric,3
+USEOTH,Other fuel is used in home,661,Numeric,3
+ELWARM,Electricity used for space heating,662,Numeric,3
+ELECAUX,Electricity used for secondary space heating,663,Numeric,3
+ELCOOL,Electricity used for air conditioning,664,Numeric,3
+ELWATER,Electricity used for water heating,665,Numeric,3
+ELFOOD,Electricity used for cooking,666,Numeric,3
+ELOTHER,"Electricity used, other than for space heating, water heating, air conditioning, or cooking",667,Numeric,3
+UGWARM,Natural gas used for space heating,668,Numeric,3
+UGASAUX,Natural gas used for secondary space heating,669,Numeric,3
+UGWATER,Natural gas used for water heating,670,Numeric,3
+UGCOOK,Natural gas used for cooking,671,Numeric,3
+UGOTH,"Natural gas used, other than for space heating, water heating, or cooking",672,Numeric,3
+LPWARM,Propane used for space heating,673,Numeric,3
+LPGAUX,Propane used for secondary space heating,674,Numeric,3
+LPWATER,Propane used for water heating,675,Numeric,3
+LPCOOK,Propane used for cooking,676,Numeric,3
+LPOTHER,"Propane used, other than for space heating, water heating, or cooking",677,Numeric,3
+FOWARM,Fuel oil used for space heating,678,Numeric,3
+FOILAUX,Fuel oil used for secondary space heating,679,Numeric,3
+FOWATER,Fuel oil used for water heating,680,Numeric,3
+FOOTHER,"Fuel oil used, other than for space heating or water heating",681,Numeric,3
+KRWARM,Kerosene used for space heating,682,Numeric,3
+KEROAUX,Kerosene used for secondary space heating,683,Numeric,3
+KRWATER,Kerosene used for water heating,684,Numeric,3
+KROTHER,"Kerosene used, other than for space heating or water heating",685,Numeric,3
+WDWARM,Wood used for space heating,686,Numeric,3
+WOODAUX,Wood used for secondary space heating,687,Numeric,3
+WDWATER,Wood used for water heating,688,Numeric,3
+WDOTHUSE,"Wood used, other than for space heating or water heating",689,Numeric,8
+SOLWARM,Solar used for space heating,690,Numeric,3
+SOLARAUX,Solar used for secondary space heating,691,Numeric,3
+SOLWATER,Solar used for water heating,692,Numeric,3
+SOLOTHER,"Solar used, other than for space heating or water heating",693,Numeric,3
+OTHWARM,Other fuel used for space heating,694,Numeric,8
+OTHERAUX,Other fuel used for secondary space heating,695,Numeric,3
+OTHWATER,Other fuel used for water heating,696,Numeric,8
+OTHCOOK,Other fuel used for cooking,697,Numeric,3
+ONSITE,Renewable on-site system used,698,Numeric,8
+ONSITEGRID,Renewable on-site system connected to the grid,699,Numeric,8
+PELHEAT,Who pays for electricity used for space heating,700,Numeric,8
+PELHOTWA,Who pays for electricity used for water heating,701,Numeric,8
+PELCOOK,Who pays for electricity used for cooking,702,Numeric,8
+PELAC,Who pays for electricity used for air conditioning,703,Numeric,8
+PELLIGHT,Who pays for electricity used for lighting and other appliances,704,Numeric,8
+OTHERWAYEL,Follow up for 'other' payment of electricity,705,Numeric,8
+PGASHEAT,Who pays for natural gas for space heating,706,Numeric,8
+PGASHTWA,Who pays for natural gas for water heating,707,Numeric,8
+PUGCOOK,Who pays for natural gas for cooking,708,Numeric,8
+PUGOTH,Who pays for natural gas for other uses,709,Numeric,8
+OTHERWAYNG,Follow up for 'other' payment of natural gas,710,Numeric,8
+FOPAY,Who pays for fuel oil,711,Numeric,8
+OTHERWAYFO,Follow up for 'other' payment of fuel oil,712,Numeric,8
+LPGPAY,Who pays for propane,713,Numeric,8
+OTHERWAYLPG,Follow up for 'other' payment of propane,714,Numeric,8
+LPGDELV,Propane delivered,715,Numeric,8
+KERODEL,Kerosene delivered to home,716,Numeric,8
+KEROCASH,Kerosene purchased 'cash and carry',717,Numeric,8
+NOCRCASH,Number of kerosene 'cash and carry' purchases,718,Numeric,8
+NKRGALNC,Gallons per kerosene 'cash and carry' purchase,719,Numeric,8
+WOODLOGS,Wood logs used,720,Numeric,8
+WDSCRAP,Wood scraps used,721,Numeric,8
+WDPELLET,Wood pellets used,722,Numeric,8
+WDOTHER,"Type of wood used other than logs, pellets, or scraps",723,Numeric,8
+WOODAMT,Cords of wood used in 2009,724,Numeric,8
+NUMCORDS,Cords of wood used in 2009 (if more than 5),725,Numeric,8
+ZONSITE,Imputation flag for ONSITE,726,Numeric,8
+ZONSITEGRID,Imputation flag for ONSITEGRID,727,Numeric,8
+ZPELHEAT,Imputation flag for PELHEAT,728,Numeric,8
+ZPELHOTWA,Imputation flag for PELHOTWA,729,Numeric,8
+ZPELCOOK,Imputation flag for PELCOOK,730,Numeric,8
+ZPELAC,Imputation flag for PELAC,731,Numeric,8
+ZPELLIGHT,Imputation flag for PELLIGHT,732,Numeric,8
+ZOTHERWAYEL,Imputation flag for OTHERWAYEL,733,Numeric,8
+ZPGASHEAT,Imputation flag for PGASHEAT,734,Numeric,8
+ZPGASHTWA,Imputation flag for PGASHTWA,735,Numeric,8
+ZPUGCOOK,Imputation flag for PUGCOOK,736,Numeric,8
+ZPUGOTH,Imputation flag for PUGOTH,737,Numeric,8
+ZOTHERWAYNG,Imputation flag for OTHERWAYNG,738,Numeric,8
+ZFOPAY,Imputation flag for FOPAY,739,Numeric,8
+ZOTHERWAYFO,Imputation flag for OTHERWAYFO,740,Numeric,8
+ZLPGPAY,Imputation flag for LPGPAY,741,Numeric,8
+ZOTHERWAYLPG,Imputation flag for OTHERWAYLPG,742,Numeric,8
+ZKERODEL,Imputation flag for KERODEL,743,Numeric,8
+ZKEROCASH,Imputation flag for KEROCASH,744,Numeric,8
+ZNOCRCASH,Imputation flag for NOCRCASH,745,Numeric,8
+ZNKRGALNC,Imputation flag for NKRGALNC,746,Numeric,8
+ZWOODLOGS,Imputation flag for WOODLOGS,747,Numeric,8
+ZWDSCRAP,Imputation flag for WDSCRAP,748,Numeric,8
+ZWDPELLET,Imputation flag for WDPELLET,749,Numeric,8
+ZWDOTHER,Imputation flag for WDOTHER,750,Numeric,8
+ZWOODAMT,Imputation flag for WOODAMT,751,Numeric,8
+ZNUMCORDS,Imputation flag for NUMCORDS,752,Numeric,8
+KFUELOT,Household fuel bills include fuel used for non-household purposes,753,Numeric,8
+HHSEX,Sex of householder,754,Numeric,8
+EMPLOYHH,Employment status of householder,755,Numeric,8
+SPOUSE,Householder lives with spouse or partner,756,Numeric,8
+SDESCENT,Householder is Hispanic or Latino,757,Numeric,8
+Householder_Race,Householder's Race,758,Numeric,8
+EDUCATION,Highest education completed by householder,759,Numeric,8
+NHSLDMEM,Number of household members,760,Numeric,8
+HHAGE,Age of householder,761,Numeric,8
+AGEHHMEMCAT2,Age category of second household member,762,Numeric,8
+AGEHHMEMCAT3,Age category of third household member,763,Numeric,8
+AGEHHMEMCAT4,Age category of fourth household member,764,Numeric,8
+AGEHHMEMCAT5,Age category of fifth household member,765,Numeric,8
+AGEHHMEMCAT6,Age category of sixth household member,766,Numeric,8
+AGEHHMEMCAT7,Age category of seventh household member,767,Numeric,8
+AGEHHMEMCAT8,Age category of eighth household member,768,Numeric,8
+AGEHHMEMCAT9,Age category of ninth household member,769,Numeric,8
+AGEHHMEMCAT10,Age category of tenth household member,770,Numeric,8
+AGEHHMEMCAT11,Age category of eleventh household member,771,Numeric,8
+AGEHHMEMCAT12,Age category of twelfth household member,772,Numeric,8
+AGEHHMEMCAT13,Age category of thirteenth household member,773,Numeric,8
+AGEHHMEMCAT14,Age category of fourteenth household member,774,Numeric,8
+HBUSNESS,Home-based business or service,775,Numeric,8
+ATHOME,Household member at home on typical week days,776,Numeric,8
+TELLWORK,Household member(s) telecommutes or teleworks,777,Numeric,8
+TELLDAYS,Number of telecommuting days per month,778,Numeric,8
+OTHWORK,Any activities that use an unusual amount of energy,779,Numeric,8
+WORKPAY,Household members received employment income in 2009,780,Numeric,8
+RETIREPY,Household members received retirement income in 2009,781,Numeric,8
+SSINCOME,Household members received Supplemental Security income in 2009,782,Numeric,8
+CASHBEN,Household members received welfare payments or cash assistance in 2009,783,Numeric,8
+INVESTMT,Household members received investment income in 2009,784,Numeric,8
+RGLRPAY,Household members received other regular income in 2009,785,Numeric,8
+MONEYPY,2009 gross household income,786,Numeric,8
+POVERTY100,Household income at or below 100% of poverty line,787,Numeric,8
+POVERTY150,Household income at or below 150% of poverty line,788,Numeric,8
+HUPROJ,Housing unit in public housing authority,789,Numeric,8
+RENTHELP,"Lower rent due to Federal, State, or Local housing program",790,Numeric,8
+FOODASST,Household receives food stamps or WIC assistance,791,Numeric,8
+ZHHSEX,Imputation flag for HHSEX,792,Numeric,8
+ZHHAGE,Imputation flag for HHAGE,793,Numeric,8
+ZEMPLOYHH,Imputation flag for EMPLOYHH,794,Numeric,8
+ZSPOUSE,Imputation flag for SPOUSE,795,Numeric,8
+ZSDESCENT,Imputation flag for SDESCENT,796,Numeric,8
+ZHouseholder_Race,Imputation flag for Householder_Race,797,Numeric,8
+ZEDUCATION,Imputation flag for EDUCATION,798,Numeric,8
+ZNHSLDMEM,Imputation flag for NHSLDMEM,799,Numeric,8
+ZAGEHHMEMCAT2,Imputation flag for AGEHHMEMCAT2,800,Numeric,8
+ZAGEHHMEMCAT3,Imputation flag for AGEHHMEMCAT3,801,Numeric,8
+ZAGEHHMEMCAT4,Imputation flag for AGEHHMEMCAT4,802,Numeric,8
+ZAGEHHMEMCAT5,Imputation flag for AGEHHMEMCAT5,803,Numeric,8
+ZAGEHHMEMCAT6,Imputation flag for AGEHHMEMCAT6,804,Numeric,8
+ZAGEHHMEMCAT7,Imputation flag for AGEHHMEMCAT7,805,Numeric,8
+ZAGEHHMEMCAT8,Imputation flag for AGEHHMEMCAT8,806,Numeric,8
+ZAGEHHMEMCAT9,Imputation flag for AGEHHMEMCAT9,807,Numeric,8
+ZAGEHHMEMCAT10,Imputation flag for AGEHHMEMCAT10,808,Numeric,8
+ZAGEHHMEMCAT11,Imputation flag for AGEHHMEMCAT11,809,Numeric,8
+ZAGEHHMEMCAT12,Imputation flag for AGEHHMEMCAT12,810,Numeric,8
+ZAGEHHMEMCAT13,Imputation flag for AGEHHMEMCAT13,811,Numeric,8
+ZAGEHHMEMCAT14,Imputation flag for AGEHHMEMCAT14,812,Numeric,8
+ZHBUSNESS,Imputation flag for HBUSNESS,813,Numeric,8
+ZATHOME,Imputation flag for ATHOME,814,Numeric,8
+ZTELLWORK,Imputation flag for TELLWORK,815,Numeric,8
+ZTELLDAYS,Imputation flag for TELLDAYS,816,Numeric,8
+ZOTHWORK,Imputation flag for OTHWORK,817,Numeric,8
+ZWORKPAY,Imputation flag for WORKPAY,818,Numeric,8
+ZRETIREPY,Imputation flag for RETIREPY,819,Numeric,8
+ZSSINCOME,Imputation flag for SSINCOME,820,Numeric,8
+ZCASHBEN,Imputation flag for CASHBEN,821,Numeric,8
+ZINVESTMT,Imputation flag for INVESTMT,822,Numeric,8
+ZRGLRPAY,Imputation flag for RGLRPAY,823,Numeric,8
+ZMONEYPY,Imputation flag for MONEYPY,824,Numeric,8
+ZHUPROJ,Imputation flag for HUPROJ,825,Numeric,8
+ZRENTHELP,Imputation flag for RENTHELP,826,Numeric,8
+ZFOODASST,Imputation flag for FOODASST,827,Numeric,8
+TOTSQFT,"Total square footage (includes all attached garages, all basements, and finished/heated/cooled attics)",828,Numeric,8
+TOTSQFT_EN,"Total square footage (includes heated/cooled garages, all basements, and finished/heated/cooled attics). Used for EIA data tables.",829,Numeric,8
+TOTHSQFT,Total heated square footage,830,Numeric,8
+TOTUSQFT,Total unheated square footage,831,Numeric,8
+TOTCSQFT,Total cooled square footage,832,Numeric,8
+TOTUCSQFT,Total uncooled square footage,833,Numeric,8
+ZTOTSQFT,Imputation flag for TOTSQFT,834,Character,1
+ZTOTSQFT_EN,Imputation flag for TOTSQFT_EN,835,Character,1
+ZTOTHSQFT,Imputation flag for TOTHSQFT,836,Character,1
+ZTOTUSQFT,Imputation flag for TOTUSQFT,837,Character,1
+ZTOTCSQFT,Imputation flag for TOTCSQFT,838,Character,1
+ZTOTUCSQFT,Imputation flag for TOTUCSQFT,839,Character,1
+KWH,"Total Site Electricity usage, in kilowatt-hours, 2009",840,Numeric,8
+KWHSPH,"Electricity usage for space heating, in kilowatt-hours, 2009",841,Numeric,8
+KWHCOL,"Electricity usage for air-conditioning, central and window/wall (room), in kilowatt-hours, 2009",842,Numeric,8
+KWHWTH,"Electricity usage for water heating, in kilowatt-hours, 2009",843,Numeric,8
+KWHRFG,"Electricity usage for refrigerators, in kilowatt-hours, 2009",844,Numeric,8
+KWHOTH,"Electricity usage for other purposes (all end-uses except SPH, COL, WTH, and RFG), in kilowatt-hours, 2009",845,Numeric,8
+BTUEL,"Total Site Electricity usage, in thousand BTU, 2009",846,Numeric,8
+BTUELSPH,"Electricity usage for space heating, in thousand BTU, 2009",847,Numeric,8
+BTUELCOL,"Electricity usage for air-conditioning, central and window/wall (room), in thousand BTU, 2009",848,Numeric,8
+BTUELWTH,"Electricity usage for water heating, in thousand BTU, 2009",849,Numeric,8
+BTUELRFG,"Electricity usage for refrigerators, in thousand BTU, 2009",850,Numeric,8
+BTUELOTH,"Electricity usage for other purposes (all end-uses except SPH, COL, WTH, and RFG), in thousand BTU, 2009",851,Numeric,8
+DOLLAREL,"Total Electricity cost, in whole dollars, 2009",852,Numeric,8
+DOLELSPH,"Electricity cost for space heating, in whole dollars, 2009",853,Numeric,8
+DOLELCOL,"Electricity cost for air-conditioning, central and window/wall (room), in whole dollars, 2009",854,Numeric,8
+DOLELWTH,"Electricity cost for water heating, in whole dollars, 2009",855,Numeric,8
+DOLELRFG,"Electricity cost for refrigerators, in whole dollars, 2009",856,Numeric,8
+DOLELOTH,"Electricity cost for other purposes (all end-uses except SPH, COL, WTH, and RFG), in wholedollars, 2009",857,Numeric,8
+CUFEETNG,"Total Natural Gas usage, in hundred cubic feet, 2009",858,Numeric,8
+CUFEETNGSPH,"Natural Gas usage for space heating, in hundred cubic feet, 2009",859,Numeric,8
+CUFEETNGWTH,"Natural Gas usage for water heating, in hundred cubic feet, 2009",860,Numeric,8
+CUFEETNGOTH,"Natural Gas usage for other purposes (all end-uses except SPH and WTH), in hundred cubic feet, 2009",861,Numeric,8
+BTUNG,"Total Natural Gas usage, in thousand BTU, 2009",862,Numeric,8
+BTUNGSPH,"Natural Gas usage for space heating, in thousand BTU, 2009",863,Numeric,8
+BTUNGWTH,"Natural Gas usage for water heating, in thousand BTU, 2009",864,Numeric,8
+BTUNGOTH,"Natural Gas usage for other purposes (all end-uses except SPH and WTH), in thousand BTU, 2009",865,Numeric,8
+DOLLARNG,"Total Natural Gas cost, in whole dollars, 2009",866,Numeric,8
+DOLNGSPH,"Natural Gas cost for space heating, in whole dollars, 2009",867,Numeric,8
+DOLNGWTH,"Natural Gas cost for water heating, in whole dollars, 2009",868,Numeric,8
+DOLNGOTH,"Natural Gas cost for other purposes (all end-uses except SPH and WTH), in whole dollars, 2009",869,Numeric,8
+GALLONLP,"Total LPG/Propane usage, in gallons, 2009",870,Numeric,8
+GALLONLPSPH,"LPG/Propane usage for space heating, in gallons, 2009",871,Numeric,8
+GALLONLPWTH,"LPG/Propane usage for water heating, in gallons, 2009",872,Numeric,8
+GALLONLPOTH,"LPG/Propane usage for other purposes (all end-uses except SPH and WTH), in gallons, 2009",873,Numeric,8
+BTULP,"Total LPG/LPG/Propane usage, in thousand BTU, 2009",874,Numeric,8
+BTULPSPH,"LPG/Propane usage for space heating, in thousand BTU, 2009",875,Numeric,8
+BTULPWTH,"LPG/Propane usage for water heating, in thousand BTU, 2009",876,Numeric,8
+BTULPOTH,"LPG/Propane usage for other purposes (all end-uses except SPH and WTH), in thousand BTU, 2009",877,Numeric,8
+DOLLARLP,"Total cost of LPG/Propane, in whole dollars, 2009",878,Numeric,8
+DOLLPSPH,"Cost of LPG/Propane for space heating, in whole dollars, 2009",879,Numeric,8
+DOLLPWTH,"Cost of LPG/Propane for water heating, in whole dollars, 2009",880,Numeric,8
+DOLLPOTH,"Cost of LPG/Propane for other purposes (all end-uses except SPH and WTH), in whole dollars, 2009",881,Numeric,8
+GALLONFO,"Total Fuel Oil usage, in gallons, 2009",882,Numeric,8
+GALLONFOSPH,"Fuel Oil usage for space heating, in gallons, 2009",883,Numeric,8
+GALLONFOWTH,"Fuel Oil usage for water heating, in gallons, 2009",884,Numeric,8
+GALLONFOOTH,"Fuel Oil usage for other purposes (all end-uses except SPH and WTH), in gallons, 2009",885,Numeric,8
+BTUFO,"Total Fuel Oil usage, in thousand BTU, 2009",886,Numeric,8
+BTUFOSPH,"Fuel Oil usage for space heating, in thousand BTU, 2009",887,Numeric,8
+BTUFOWTH,"Fuel Oil usage for water heating, in thousand BTU, 2009",888,Numeric,8
+BTUFOOTH,"Fuel Oil usage for other purposes (all end-uses except SPH and WTH), in thousand BTU, 2009",889,Numeric,8
+DOLLARFO,"Total cost of Fuel Oil, in whole dollars, 2009",890,Numeric,8
+DOLFOSPH,"Cost of Fuel Oil for space heating, in whole dollars, 2009",891,Numeric,8
+DOLFOWTH,"Cost of Fuel Oil for water heating, in whole dollars, 2009",892,Numeric,8
+DOLFOOTH,"Cost of Fuel Oil for other purposes (all end-uses except SPH and WTH), in whole dollars, 2009",893,Numeric,8
+GALLONKER,"Total Kerosene usage, in gallons, 2009",894,Numeric,8
+GALLONKERSPH,"Kerosene usage for space heating, in gallons, 2009",895,Numeric,8
+GALLONKERWTH,"Kerosene usage for water heating, in gallons, 2009",896,Numeric,8
+GALLONKEROTH,"Kerosene usage for other purposes (all end-uses except SPH and WTH), in gallons, 2009",897,Numeric,8
+BTUKER,"Total Kerosene usage, in thousand BTU, 2009",898,Numeric,8
+BTUKERSPH,"Kerosene usage for space heating, in thousand BTU, 2009",899,Numeric,8
+BTUKERWTH,"Kerosene usage for water heating, in thousand BTU, 2009",900,Numeric,8
+BTUKEROTH,"Kerosene usage for other purposes (all end-uses except SPH and WTH), in thousand BTU, 2009",901,Numeric,8
+DOLLARKER,"Total cost of Kerosene, in whole dollars, 2009",902,Numeric,8
+DOLKERSPH,"Cost of Kerosene for space heating, in whole dollars, 2009",903,Numeric,8
+DOLKERWTH,"Cost of Kerosene for water heating, in whole dollars, 2009",904,Numeric,8
+DOLKEROTH,"Cost of Kerosene for other purposes (all end-uses except SPH and WTH), in whole dollars, 2009",905,Numeric,8
+BTUWOOD,"Total Wood usage, in thousand BTU, 2009 (Wood consumption is not included in TOTALBTU or TOTALDOL)",906,Numeric,8
+CORDSWD,"Total Wood usage, in cords, 2009 (Wood consumption is not included in TOTALBTU or TOTALDOL)",907,Numeric,8
+TOTALBTU,"Total usage, in thousand BTU, 2009",908,Numeric,8
+TOTALBTUSPH,"Total usage for space heating, in thousand BTU, 2009",909,Numeric,8
+TOTALBTUCOL,"Total usage for air conditioning, in thousand BTU, 2009",910,Numeric,8
+TOTALBTUWTH,"Total usage for water heating, in thousand BTU, 2009",911,Numeric,8
+TOTALBTURFG,"Total usage for refrigerators, in thousand BTU, 2009",912,Numeric,8
+TOTALBTUOTH,"Total usage for appliances, electronics, lighting, and miscellaneous uses, in thousand BTU, 2009",913,Numeric,8
+TOTALDOL,"Total cost, in whole dollars, 2009",914,Numeric,8
+TOTALDOLSPH,"Total cost for space heating, in whole dollars, 2009",915,Numeric,8
+TOTALDOLCOL,"Total cost for air conditioning, in whole dollars, 2009",916,Numeric,8
+TOTALDOLWTH,"Total cost for water heating, in whole dollars, 2009",917,Numeric,8
+TOTALDOLRFG,"Total cost for refrigerators, in whole dollars, 2009",918,Numeric,8
+TOTALDOLOTH,"Total cost for appliances, electronics, lighting, and miscellaneous uses, in whole dollars, 2009",919,Numeric,8
+KAVALEL,Electricity end uses included in Energy Supplier Survey billing data,920,Numeric,8
+PERIODEL,Number of days covered by Energy Supplier Survey electricity billing data and used to calculate annual consumption and expenditures,921,Numeric,8
+SCALEEL,Whether annualized electricity consumption from Energy Supplier Survey billing data was scaled down,922,Numeric,8
+KAVALNG,Natural gas end uses included in Energy Supplier Survey billing data,923,Numeric,8
+PERIODNG,Number of days covered by Energy Supplier Survey natural gas billing data and used to calculate annual consumption and expenditures,924,Numeric,8
+SCALENG,Whether annualized natural gas consumption from Energy Supplier Survey billing data was scaled down,925,Numeric,8
+PERIODLP,Number of days covered by Energy Supplier Survey LPG/propane billing data and used to calculate annual consumption and expenditures,926,Numeric,8
+SCALELP,Whether annualized LPG/propane consumption from Energy Supplier Survey billing data was scaled down,927,Numeric,8
+PERIODFO,Number of days covered by Energy Supplier Survey fuel oil billing data and used to calculate annual consumption and expenditures,928,Numeric,8
+SCALEFO,Whether annualized fuel oil consumption from Energy Supplier Survey billing data was scaled down,929,Numeric,8
+PERIODKR,Number of days covered by Energy Supplier Survey kerosene billing data and used to calculate annual consumption and expenditures,930,Numeric,8
+SCALEKER,Whether annualized kerosene consumption from Energy Supplier Survey billing data was scaled down,931,Numeric,8

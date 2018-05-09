@@ -23,15 +23,16 @@ y_pos = np.arange(len(x_importances))
 # 横向柱状图
 plt.barh(y_pos, y_importances, align='center')
 plt.yticks(y_pos, x_importances)
-plt.xlabel('Importances')
+plt.xlabel('重要性')
 plt.xlim(0,1)
-plt.title('Features Importances')
+plt.title('特征重要性')
 plt.show()
+
 
 # 竖向柱状图
 plt.bar(y_pos, y_importances, width=0.4, align='center', alpha=0.4)
 plt.xticks(y_pos, x_importances)
-plt.ylabel('Importances')
+plt.ylabel('重要性')
 plt.ylim(0,1)
-plt.title('Features Importances')
+plt.title('特征重要性')
 plt.show()
