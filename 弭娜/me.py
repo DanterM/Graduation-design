@@ -19,7 +19,7 @@ data=scale(digits)
 
 n_samples=digits.iloc[:,0].size
 n_features=digits.columns.size
-n_digits = 8
+n_digits = 4
 print("n_digits: %d, \t n_samples %d, \t n_features %d"
       % (n_digits, n_samples, n_features))
 

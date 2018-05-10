@@ -36,7 +36,7 @@ test_df = pd.read_csv('test.csv')
 test_data = test_df.values
 
 correctAnswer = pd.read_csv('correctAnswer.csv')
-correctAnswer = correctAnswer.astype('<U32')
+# correctAnswer = correctAnswer.astype('float64')
 print(train_df.head())
 print(train_data)
 print(correctAnswer)
@@ -88,17 +88,17 @@ model = clf.fit(train, target)
 
 # 用测试集数据来预测最终结果
 output = model.predict(test_data)
-output = output.astype('<U32')
+# output = output.astype('float64')
 # print(output)
-
+# output1 = [60.0,60.0,60.0,50.0,60.0,60.0,60.0,30.0,30.0,60.0,60.0,400.0,400.0,400.0,80.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,400.0,400.0,400.0,400.0,400.0,110.0]
 
 # 计算误差率
-for j in correctAnswer:
-      print(j)
-      for i in output:
-            print(i)
-            accrucy = abs(int((i-j)/j))
-            print(accrucy)
+# for j in correctAnswer:
+#       print(j)
+#       for i in output1:
+#             print(i)
+#             accrucy = abs(int((i-j)/j))
+#             print(accrucy)
 
 # 输出预测结果
 pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out.csv', index=False, header=True)
