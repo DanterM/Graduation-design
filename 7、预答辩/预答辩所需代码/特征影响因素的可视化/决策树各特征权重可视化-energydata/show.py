@@ -62,19 +62,35 @@ x_importances = load_csv(data)[0]
 # x_importances = iris.feature_names
 
 print(x_importances)
+
 y_pos = np.arange(len(x_importances))
-# 横向柱状图
+print(y_pos)
+print(x_importances)
+
+# # 横向柱状图
 plt.barh(y_pos, y_importances, align='center')
 plt.yticks(y_pos, x_importances)
 plt.xlabel('Importances')
 plt.xlim(0,1)
 plt.title('Features Importances')
+plt.tight_layout()
 plt.show()
 
+
 # 竖向柱状图
-plt.bar(y_pos, y_importances, width=0.4, align='center', alpha=0.4)
-plt.xticks(y_pos, x_importances)
-plt.ylabel('Importances')
-plt.ylim(0,1)
-plt.title('Features Importances')
-plt.show()
+# plt.bar(y_pos, y_importances, width=0.4, align='center', alpha=0.4)
+# plt.xticks(y_pos, x_importances)
+# plt.ylabel('Importances')
+# plt.ylim(0,1)
+# plt.title('Features Importances')
+# plt.show()
+
+
+
+
+# plt.title('特征重要性')
+# plt.bar(y_pos, y_importances)
+# plt.xticks(y_pos, x_importances)
+# plt.xlim([-1,1])
+# plt.tight_layout()
+# plt.show()

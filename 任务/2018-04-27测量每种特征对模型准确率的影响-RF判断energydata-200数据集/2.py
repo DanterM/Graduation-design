@@ -139,6 +139,7 @@ for train_idx, test_idx in ShuffleSplit(len(X), 10, .3):
         X_t = X_test.copy()
         np.random.shuffle(X_t[:, i])
         shuff_acc = r2_score(Y_test, rf.predict(X_t))
+        print(shuff_acc)
         scores[names[i]].append((acc-shuff_acc)/acc)
 print("Features sorted by their score:")
 print(sorted([(round(np.mean(score), 4), feat) for

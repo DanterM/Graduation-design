@@ -35,8 +35,12 @@ train_data = train_df.values
 test_df = pd.read_csv('test.csv')
 test_data = test_df.values
 
+correctAnswer = pd.read_csv('correctAnswer.csv')
+correctAnswer = correctAnswer.astype('<U32')
 print(train_df.head())
 print(train_data)
+print(correctAnswer)
+
 
 # 画图
 plt.figure(figsize=(12,8)).show()
@@ -57,7 +61,7 @@ print("Number of features used for training: \t", len(train),
       "\nNumber of features used for testing: \t", len(test))
 
 # 开始使用随机森林分类器
-clf = RandomForestClassifier(n_estimators=200) # 定义决策树的个数为100
+clf = RandomForestClassifier(n_estimators=200) # 定义决策树的个数为200
 
 # 开始训练，训练的X数据格式为[[]]，训练的y值为[]也就是经过ravel后的数据
 # 如果你问我ravel()的作用是什么，就是不管什么数据格式的数据都转成一个一维的array，这样每个元素都是一个平等且顺序的位置
@@ -65,10 +69,11 @@ model = clf.fit(train[:,1:], train[:,0].ravel())
 
 # 然后预测
 output = model.predict(test[:,1:])
-
+# print(output)
 # 计算准确度
 acc = np.mean(output == test[:,0].ravel()) *100
 print("The accuracy of the pure RandomForest classifier is: \t", acc, "%")
+
 
 # 利用
 clf = RandomForestClassifier(n_estimators=100) # 100 trees
@@ -80,9 +85,20 @@ model = clf.fit(train, target)
 
 
 
+
 # 用测试集数据来预测最终结果
 output = model.predict(test_data)
-print(output)
+output = output.astype('<U32')
+# print(output)
+
+
+# 计算误差率
+for j in correctAnswer:
+      print(j)
+      for i in output:
+            print(i)
+            accrucy = abs(int((i-j)/j))
+            print(accrucy)
 
 # 输出预测结果
-pd.DataFrame({"ImageId": range(1, len(output)+1), "Label": output}).to_csv('out.csv', index=False, header=True)
+pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out.csv', index=False, header=True)

@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 # 数据导入以及数据清洗
-train = pd.read_csv("/Users/Jarvis/PycharmProjects/titanic/train.csv", dtype={"Age": np.float64},)
+train = pd.read_csv("train.csv", dtype={"Age": np.float64},)
 
 train.head(10)
 def harmonize_data(titanic):
@@ -28,7 +28,7 @@ def harmonize_data(titanic):
 
 train_data = harmonize_data(train)
 
-
+print(train_data)
 
 
 
@@ -63,4 +63,4 @@ print(max(results, key=lambda x: x[2]))
 
 #RF特征
 #底层逻辑代码
-#可视化
+#可视化2

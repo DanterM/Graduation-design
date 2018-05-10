@@ -10,7 +10,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RF.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="197" column="45" lean-forward="true" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RF-0.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-458">
+              <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="随机森林可视化.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1023">
+              <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+              <folding>
+                <element signature="e#32#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/train.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="out.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/out.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="energydata_complete1.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/energydata_complete1.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,6 +95,7 @@
       <find>R</find>
       <find>M</find>
       <find>label</find>
+      <find>print(iris.feature_names)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -39,10 +111,8 @@
         <option value="$PROJECT_DIR$/任务/1.py" />
         <option value="$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest0.py" />
         <option value="$PROJECT_DIR$/任务/4-26日前-RF运行energydata/rf-energydata.py" />
-        <option value="$PROJECT_DIR$/1、随机森林案例/决策树/随机森林可视化.py" />
         <option value="$PROJECT_DIR$/1、随机森林案例/泰坦尼克/test2.py" />
         <option value="$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/load_data_module.py" />
-        <option value="$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py" />
         <option value="$PROJECT_DIR$/1、随机森林案例/RF3/RFbymyself.py" />
         <option value="$PROJECT_DIR$/1、随机森林案例/RF3/energydata_complete.csv" />
         <option value="$PROJECT_DIR$/任务/4-26日前-RF运行energydata/1.py" />
@@ -61,18 +131,30 @@
         <option value="$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/data.csv" />
         <option value="$PROJECT_DIR$/1、随机森林案例/决策树/决策树各特征权重可视化.py" />
         <option value="$PROJECT_DIR$/弭娜/me.py" />
-        <option value="$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/1.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/show.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/决策树各特征权重可视化-energydata.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/TensorFlow/random_forest.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/TensorFlow/random_forest_mnist.py" />
+        <option value="$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/boston.py" />
+        <option value="$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/1.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py" />
+        <option value="$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF1.py" />
+        <option value="$PROJECT_DIR$/1、随机森林案例/泰坦尼克/titanic.py" />
+        <option value="$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py" />
+        <option value="$PROJECT_DIR$/任务/2018-04-27测量每种特征对模型准确率的影响-RF判断energydata-200数据集/2.py" />
+        <option value="$PROJECT_DIR$/1、随机森林案例/决策树/随机森林可视化.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py" />
+        <option value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py" />
+        <option value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="-997" />
-    <option name="width" value="1080" />
-    <option name="height" value="949" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="323" />
+    <option name="width" value="800" />
+    <option name="height" value="528" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,6 +177,23 @@
             <path>
               <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="1、随机森林案例" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="1、随机森林案例" type="462c0819:PsiDirectoryNode" />
+              <item name="RF1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="1、随机森林案例" type="462c0819:PsiDirectoryNode" />
+              <item name="决策树" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
               <item name="7、预答辩" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -115,8 +214,18 @@
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
               <item name="7、预答辩" type="462c0819:PsiDirectoryNode" />
               <item name="预答辩所需代码" type="462c0819:PsiDirectoryNode" />
-              <item name="特征影响因素的可视化" type="462c0819:PsiDirectoryNode" />
-              <item name="决策树各特征权重可视化-energydata" type="462c0819:PsiDirectoryNode" />
+              <item name="随机森林-基尼值、交叉验证" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="任务" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="任务" type="462c0819:PsiDirectoryNode" />
+              <item name="2018-05-02基于随机森林对energydata进行能耗预测" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,22 +235,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata" />
       <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata" />
       <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码" />
-      <recent name="$PROJECT_DIR$/8、毕业设计所需材料/1、任务书" />
       <recent name="$PROJECT_DIR$/弭娜" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化" />
+      <recent name="$PROJECT_DIR$/1、随机森林案例/RF2/RF" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证" />
       <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata" />
-      <recent name="$PROJECT_DIR$/弭娜" />
-      <recent name="$PROJECT_DIR$/任务/4-26日前-RF运行energydata" />
-      <recent name="$PROJECT_DIR$/1、随机森林案例/RF4" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,25 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.show (2)">
-    <configuration name="决策树各特征权重可视化-energydata" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Graduation design" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/决策树各特征权重可视化-energydata.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.4">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +302,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="show (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,17 +310,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/show.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="show (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RF-0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Graduation design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="boston" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Graduation design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/boston.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="show" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,37 +374,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="show" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Graduation design" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/show.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.1" />
-      <item itemvalue="Python.决策树各特征权重可视化-energydata" />
+      <item itemvalue="Python.boston" />
+      <item itemvalue="Python.4" />
       <item itemvalue="Python.show" />
-      <item itemvalue="Python.show (1)" />
-      <item itemvalue="Python.show (2)" />
+      <item itemvalue="Python.RF-0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.show (2)" />
+        <item itemvalue="Python.4" />
         <item itemvalue="Python.show" />
-        <item itemvalue="Python.show (1)" />
-        <item itemvalue="Python.决策树各特征权重可视化-energydata" />
+        <item itemvalue="Python.RF-0" />
+        <item itemvalue="Python.boston" />
         <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
@@ -296,12 +405,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-997" width="1080" height="949" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.2851747" />
+      <window_info content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.24524313" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.25693607" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.46134663" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.5007278" side_tool="true" weight="0.26286116" />
@@ -365,204 +475,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata/energydata_complete.csv" />
-    <entry file="file://$PROJECT_DIR$/任务/4-26日前-RF运行energydata/rf-energydata.py" />
-    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="472" column="8" selection-start-line="472" selection-start-column="8" selection-end-line="472" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/阅读说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="98" selection-start-column="59" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="569" column="57" selection-start-line="569" selection-start-column="57" selection-end-line="569" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27测量每种特征对模型准确率的影响-RF判断energydata-200数据集/data-200.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/sonar-all-data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/energydata_complete.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/test.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="885">
-          <caret column="6945" selection-start-column="6945" selection-end-column="6945" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/ensemble/forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3351">
-          <caret line="414" column="20" selection-start-line="414" selection-start-column="20" selection-end-line="414" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/train.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-140137">
-          <caret column="82" selection-start-column="82" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="6" column="163" lean-forward="true" selection-start-line="6" selection-start-column="163" selection-end-line="6" selection-end-column="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="166" lean-forward="true" selection-start-line="1" selection-start-column="166" selection-end-line="1" selection-end-column="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/out.csv" />
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/energydata_complete1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="27" column="158" selection-start-line="27" selection-start-column="158" selection-end-line="27" selection-end-column="158" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/target.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret column="310" selection-start-column="310" selection-end-column="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/data-200.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="62" lean-forward="true" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="4" column="159" lean-forward="true" selection-start-line="4" selection-start-column="159" selection-end-line="4" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/feature_names-10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest修正.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="85" column="111" lean-forward="true" selection-start-line="85" selection-start-column="111" selection-end-line="85" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/load_data_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-鸢尾花.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/randomForest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2308">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/RFbymyself.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/决策树可视化0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/决策树可视化1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/随机森林可视化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/其他/CART.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -616,41 +534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27测量每种特征对模型准确率的影响-RF判断energydata-200数据集/2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="144" column="60" lean-forward="true" selection-start-line="144" selection-start-column="60" selection-end-line="144" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/boston.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,10 +562,270 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/TensorFlow/random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#334#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、LM-GBM-SVM法计算RMSE、MAE、MAPE%/线性回归/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1709" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/TensorFlow/random_forest_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#762#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/sonar.all-data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RunningResult/ConsoleLog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/data-200.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1434">
+          <caret line="102" column="62" lean-forward="true" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/target-200.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/data-200.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/train_modified.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/train.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/sonar.all-data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/titanic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/load_data_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="191" column="37" lean-forward="true" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF1/RandomForest修正.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/randomForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2663">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF3/RFbymyself.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1973">
+          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF4/Pandas-scikit-learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/随机森林可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/feature_names-10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/target-200.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret column="619" lean-forward="true" selection-start-column="619" selection-end-column="619" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/data-200.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-04-27测量每种特征对模型准确率的影响-RF判断energydata-200数据集/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="112" selection-start-line="112" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/boston.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/out.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/energydata_complete1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/train.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="197" column="45" lean-forward="true" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="294">
+          <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+          <folding>
+            <element signature="e#32#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
         </state>
       </provider>
     </entry>

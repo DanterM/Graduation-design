@@ -9,7 +9,10 @@ iris = datasets.load_iris()
 
 
 X = iris.data
+print(X)
 y = iris.target
+print(y)
+
 
 # 训练模型，限制树的最大深度4
 clf = RandomForestClassifier(max_depth=4)
