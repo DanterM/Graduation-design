@@ -14,8 +14,8 @@
       <file leaf-file-name="随机森林可视化.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="795">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="-790">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -35,8 +35,8 @@
       <file leaf-file-name="RF.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="197" column="45" lean-forward="true" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
+            <state relative-caret-position="1682">
+              <caret line="197" column="45" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -44,17 +44,17 @@
       <file leaf-file-name="RF-0.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+            <state relative-caret-position="-658">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="572">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#32#50#0" expanded="true" />
               </folding>
@@ -62,28 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="me.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/弭娜/me.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/train.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="test.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="147" lean-forward="true" selection-start-line="7" selection-start-column="147" selection-end-line="7" selection-end-column="147" />
+            <state relative-caret-position="105">
+              <caret line="7" column="147" selection-start-line="7" selection-start-column="147" selection-end-line="7" selection-end-column="147" />
             </state>
           </provider>
         </entry>
@@ -92,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/out.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -100,7 +83,7 @@
       <file leaf-file-name="energydata_complete1.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/energydata_complete1.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="450">
               <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
@@ -170,16 +153,16 @@
         <option value="$PROJECT_DIR$/1、随机森林案例/决策树/随机森林可视化.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py" />
         <option value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.py" />
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py" />
         <option value="$PROJECT_DIR$/弭娜/me.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py" />
         <option value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="323" />
-    <option name="width" value="800" />
-    <option name="height" value="528" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -302,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.show">
+  <component name="RunManager" selected="Python.me">
     <configuration name="随机森林可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -420,10 +403,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.me" />
         <item itemvalue="Python.show" />
         <item itemvalue="Python.随机森林可视化" />
         <item itemvalue="Python.4" />
-        <item itemvalue="Python.me" />
         <item itemvalue="Python.RF-0" />
       </list>
     </recent_temporary>
@@ -445,10 +428,10 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.24524313" />
+      <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.16701902" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.46134663" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.46134663" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.5007278" side_tool="true" weight="0.26286116" />
@@ -466,21 +449,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.17970401" />
       <window_info id="Structure" order="1" sideWeight="0.5007278" side_tool="true" weight="0.26286116" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.32793018" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32793018" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32793018" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,6 +501,78 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="197" column="45" lean-forward="true" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#32#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="147" lean-forward="true" selection-start-line="7" selection-start-column="147" selection-end-line="7" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/out.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/energydata_complete1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/弭娜/me.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/其他/CART.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -593,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#334#371#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,17 +674,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#762#800#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/iDataSet/sonar.all-data.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RunningResult/ConsoleLog.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/data-200.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,47 +684,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/target-200.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/data-200.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/train_modified.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/train.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/sonar.all-data.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/泰坦尼克/titanic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,9 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="191" column="37" lean-forward="true" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
-          <folding>
-            <element signature="e#43#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,21 +737,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF4/Pandas-scikit-learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1、随机森林案例/决策树/随机森林可视化.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,16 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/data-200.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-04-27测量每种特征对模型准确率的影响-RF判断energydata-200数据集/2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="112" selection-start-line="112" selection-end-line="116" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,9 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,9 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,84 +785,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="197" column="45" lean-forward="true" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/弭娜/me.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/out.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/energydata_complete1.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="450">
           <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/train.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="147" lean-forward="true" selection-start-line="7" selection-start-column="147" selection-end-line="7" selection-end-column="147" />
+        <state relative-caret-position="105">
+          <caret line="7" column="147" selection-start-line="7" selection-start-column="147" selection-end-line="7" selection-end-column="147" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="795">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py">
+    <entry file="file://$PROJECT_DIR$/弭娜/me.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="795">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
+    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+        <state relative-caret-position="1682">
+          <caret line="197" column="45" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata/show.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="572">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#32#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-658">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-790">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>

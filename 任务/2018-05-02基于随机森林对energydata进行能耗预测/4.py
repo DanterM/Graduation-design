@@ -15,6 +15,7 @@ Solution:  Random Forest
 # 数据处理的常用包
 import numpy as np
 import pandas as pd
+import scipy as sp
 from sklearn import tree
 # 随机森林的包
 import sklearn as skl
@@ -25,6 +26,7 @@ from IPython.display import Image
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(color_codes=True)
+import math
 
 # 读取数据（请先去 https://www.kaggle.com/c/digit-recognizer/data 上下载数据）
 # 读取成DataFrame的数据
@@ -99,6 +101,11 @@ output = model.predict(test_data)
 #             print(i)
 #             accrucy = abs(int((i-j)/j))
 #             print(accrucy)
+
+
+# 均方根误差（RMSE）
+def rmse(y_test, y):
+    return sp.sqrt(sp.mean((y_test - y) ** 2))
 
 # 输出预测结果
 pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out.csv', index=False, header=True)
