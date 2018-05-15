@@ -83,4 +83,4 @@ output = model.predict(test_data)
 print(output)
 
 # 输出预测结果
-pd.DataFrame({"ImageId": range(1, len(output)+1), "Label": output}).to_csv('out.csv', index=False, header=True)
+pd.DataFrame({"ImageId": range(1, len(output)+1), "Label": output}).to_csv('out-data.csv', index=False, header=True)

@@ -83,6 +83,9 @@ pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out0.csv'
 # 计算准确度
 acc = np.mean(output == test[:,0].ravel()) *100
 
+resm = np.sqrt(((output - test[:,0].ravel()) ** 2).mean())
+
+print("resm",resm,"%")
 
 print("The accuracy of the pure RandomForest classifier is: \t", acc, "%")
 
@@ -94,6 +97,8 @@ clf = RandomForestClassifier(n_estimators=100) # 100 trees
 target = train_data[:,0].ravel()
 train = train_data[:,1:]
 model = clf.fit(train, target)
+
+
 
 
 
@@ -120,4 +125,4 @@ def rmse(y_test, y):
     return sp.sqrt(sp.mean((y_test - y) ** 2))
 
 # 输出预测结果
-pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out.csv', index=False, header=True)
+pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out-data.csv', index=False, header=False)

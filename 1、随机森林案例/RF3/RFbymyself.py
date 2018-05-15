@@ -172,7 +172,7 @@ def accuracy(predict_values,actual):
 if __name__=='__main__':
     seed(1)
     # dataSet=loadCSV('sonar-all-data.csv')
-    dataSet = loadCSV('energydata_complete.csv')
+    dataSet = loadCSV('energydata-无时间特征.csv')
 
     column_to_float(dataSet)
     n_folds=5
