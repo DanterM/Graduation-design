@@ -39,9 +39,12 @@ test_data = test_df.values
 
 correctAnswer = pd.read_csv('correctAnswer.csv')
 # correctAnswer = correctAnswer.astype('float64')
-print(train_df.head())
-print(train_data)
-print(correctAnswer)
+
+
+
+# print(train_df.head())
+# print(train_data)
+# print(correctAnswer)
 
 
 # 画图
@@ -71,9 +74,16 @@ model = clf.fit(train[:,1:], train[:,0].ravel())
 
 # 然后预测
 output = model.predict(test[:,1:])
-# print(output)
+print(output)
+pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out0.csv', index=False, header=True)
+
+
+
+
 # 计算准确度
 acc = np.mean(output == test[:,0].ravel()) *100
+
+
 print("The accuracy of the pure RandomForest classifier is: \t", acc, "%")
 
 
@@ -90,9 +100,9 @@ model = clf.fit(train, target)
 
 # 用测试集数据来预测最终结果
 output = model.predict(test_data)
-# output = output.astype('float64')
-# print(output)
-# output1 = [60.0,60.0,60.0,50.0,60.0,60.0,60.0,30.0,30.0,60.0,60.0,400.0,400.0,400.0,80.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,400.0,400.0,400.0,400.0,400.0,110.0]
+
+print(output)
+
 
 # 计算误差率
 # for j in correctAnswer:
@@ -101,6 +111,8 @@ output = model.predict(test_data)
 #             print(i)
 #             accrucy = abs(int((i-j)/j))
 #             print(accrucy)
+
+
 
 
 # 均方根误差（RMSE）
