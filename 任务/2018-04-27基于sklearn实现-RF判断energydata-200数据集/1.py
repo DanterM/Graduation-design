@@ -46,7 +46,7 @@ target = 'target-200.csv'
 
 Y = load_csv(target)[0]
 print(Y)
-feature = 'feature_names-10.csv'
+feature = 'feature_names-25.csv'
 names = load_csv(feature)[0]
 
 # print(load_csv(data))

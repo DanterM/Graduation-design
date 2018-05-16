@@ -43,7 +43,7 @@ from collections import defaultdict
 #
 # target = 'target-200.csv'
 # Y = load_csv(target)[0]
-# feature = 'feature_names-10.csv'
+# feature = 'feature_names-25.csv'
 # names = load_csv(feature)[0]
 #
 # print(load_csv(data))
@@ -115,7 +115,7 @@ X= load_csv(data)
 
 target = 'target-200.csv'
 Y = load_csv(target)[0]
-feature = 'feature_names-10.csv'
+feature = 'feature_names-25.csv'
 names = load_csv(feature)[0]
 
 # print(load_csv(data))
