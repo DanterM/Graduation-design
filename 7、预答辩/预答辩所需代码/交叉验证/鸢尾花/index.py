@@ -2,6 +2,7 @@ from sklearn.datasets import load_iris  # iris数据集
 from sklearn.model_selection import train_test_split  # 分割数据模块
 from sklearn.neighbors import KNeighborsClassifier  # K最近邻(kNN，k-NearestNeighbor)分类算法
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
 
 # 加载iris数据集
 iris = load_iris()
@@ -51,15 +52,6 @@ print(scores.mean())
 
 
 
-
-
-
-
-
-
-
-
-
 import matplotlib.pyplot as plt  # 可视化模块
 
 # 建立测试参数集
@@ -70,11 +62,15 @@ k_scores = []
 # 藉由迭代的方式来计算不同参数对模型的影响，并返回交叉验证后的平均准确率
 for k in k_range:
     knn = KNeighborsClassifier(n_neighbors=k)
-    scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
-    k_scores.append(scores.mean())
+    random = RandomForestRegressor
+
+    scores = cross_val_score(knn, X, y, cv=10, scoring='mean_squared_error')
+    k_scores.append((-scores).mean())
 
 # 可视化数据
 plt.plot(k_range, k_scores)
 plt.xlabel('Value of K for KNN')
 plt.ylabel('Cross-Validated Accuracy')
 plt.show()
+
+

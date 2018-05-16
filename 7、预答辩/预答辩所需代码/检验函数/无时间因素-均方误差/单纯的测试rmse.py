@@ -1,4 +1,8 @@
+#30个数据集的验证
+
+
 # 引入需要的包 数据处理的常用包
+
 import numpy as np
 import pandas as pd
 import scipy as sp

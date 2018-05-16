@@ -7,6 +7,8 @@ from sklearn import tree
 # 随机森林的包
 import sklearn as skl
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
+
 import pydotplus
 from IPython.display import Image
 # 画图的包
@@ -57,8 +59,8 @@ print("Number of all features: \t\t", num_features)
 split = int(num_features * 2/3) # 这里是取2/3行作为训练 后1/3行作为测试
 test = train_data[split:] # 取出后1/3行作为测试数据
 # 利用
-clf = RandomForestClassifier(n_estimators=100) # 100 trees
-
+# clf = RandomForestClassifier(n_estimators=100) # 100 trees
+clf = RandomForestRegressor(n_estimators=100)
 # 用全部训练数据来做训练
 target = train_data[:,0].ravel()
 train = train_data[:,1:]

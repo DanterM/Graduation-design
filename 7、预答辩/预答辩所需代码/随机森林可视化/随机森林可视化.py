@@ -6,8 +6,6 @@ import pydotplus
 from csv import reader
 
 
-
-
 # filename = 'data-200.csv'
 
 
@@ -41,7 +39,7 @@ for i in range(len(X[0])):
     str_column_to_float(X, i)
 
 
-print(X)
+# print(X)
 
 
 target = 'target-200.csv'

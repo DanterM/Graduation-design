@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import sklearn
+from sklearn.ensemble import RandomForestRegressor
+
 
 
 train_df = pd.read_csv('../dataset/1energydata-del1day.csv')
@@ -22,6 +25,8 @@ train_appliances = train_df['Appliances']
 # plt.plot(train_date[144:288],train_appliances[144:288])
 # plt.plot(train_date[288:432],train_appliances[288:432])
 
+
+
 # 数据集共136天
 # 循环遍历数据集所有天数状态图
 for i in range(136):
@@ -33,3 +38,4 @@ plt.xlabel("Time")      #指定横轴和纵轴的标签
 plt.ylabel("Appliances")
 plt.title("") #标题
 plt.show()
+

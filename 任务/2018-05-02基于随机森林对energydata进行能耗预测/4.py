@@ -121,8 +121,8 @@ print(output)
 
 
 # 均方根误差（RMSE）
-def rmse(y_test, y):
-    return sp.sqrt(sp.mean((y_test - y) ** 2))
+# def rmse(y_test, y):
+#     return sp.sqrt(sp.mean((y_test - y) ** 2))
 
 # 输出预测结果
 pd.DataFrame({"Id": range(1, len(output)+1), "Label": output}).to_csv('out-data.csv', index=False, header=False)
