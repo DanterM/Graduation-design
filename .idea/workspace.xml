@@ -19,8 +19,9 @@
     <SUITE FILE_PATH="coverage/Graduation_design$_.coverage" NAME="决策树各特征权重可视化-鸢尾花 Coverage Results" MODIFIED="1526457425967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化" />
     <SUITE FILE_PATH="coverage/Graduation_design$boston_MDA.coverage" NAME="boston-MDA Coverage Results" MODIFIED="1526461445684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择" />
     <SUITE FILE_PATH="coverage/Graduation_design$index.coverage" NAME="index Coverage Results" MODIFIED="1526457001300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花" />
+    <SUITE FILE_PATH="coverage/Graduation_design$show.coverage" NAME="show Coverage Results" MODIFIED="1526457165059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM、lights、压力" />
     <SUITE FILE_PATH="coverage/Graduation_design$show__2_.coverage" NAME="show (2) Coverage Results" MODIFIED="1526457577975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM" />
-    <SUITE FILE_PATH="coverage/Graduation_design$.coverage" NAME="数据集处理 Coverage Results" MODIFIED="1526462498084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集" />
+    <SUITE FILE_PATH="coverage/Graduation_design$.coverage" NAME="数据集处理 Coverage Results" MODIFIED="1526478419760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -64,25 +65,21 @@
       <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
+                <element signature="e#0#19#0" expanded="true" />
                 <marker date="1526462626287" expanded="true" signature="282:372" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0-energydata原版.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/0-energydata原版.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="数据集处理.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/数据集处理.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="452">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -179,9 +176,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -428,51 +425,51 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" weight="0.32917705" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="5" sideWeight="0.50124687" side_tool="true" weight="0.14735337" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="5" sideWeight="0.50124687" side_tool="true" weight="0.14696486" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.39714867" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.39714867" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
-      <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.18051118" />
+      <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.18210863" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49875313" weight="0.14735337" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32586557" />
       <window_info anchor="right" id="SciView" order="4" weight="0.38764644" />
       <window_info id="Structure" order="1" sideWeight="0.5007278" side_tool="true" weight="0.26286116" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32917705" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32917705" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32586557" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.15271196" />
       <window_info id="Structure" order="1" sideWeight="0.5007278" side_tool="true" weight="0.26286116" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.3340122" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32793018" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002633" side_tool="true" weight="0.3299389" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32793018" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,6 +510,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1526462626287" expanded="true" signature="282:372" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/数据集处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/dataset/1energydata-del1day.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -569,20 +587,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/out_11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/out_00.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/out_11.csv" />
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/out_00.csv" />
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/out_1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -624,20 +630,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/交叉验证.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/交叉验证.py" />
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/含时间因素-均方误差/处理数据集-时间特征.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,9 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3d0f4bf-bf52-4e19-a5c6-a0b2f1740628/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -735,16 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/energydata数据集/0energydata原版.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM/show.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,13 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/决策树各特征权重可视化-RECS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/决策树各特征权重可视化-RECS.py" />
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花/准确率、平均方差.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -773,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="35" column="53" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,16 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!预测/预测.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI-特征选择/boston-MDI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#33#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,22 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#33#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/0-energydata原版.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <marker date="1526462626287" expanded="true" signature="282:372" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,13 +800,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/0-energydata原版.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19625" column="17" lean-forward="true" selection-start-line="19625" selection-start-column="17" selection-end-line="19625" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/1-energydata-del1day.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="19584" column="219" lean-forward="true" selection-start-line="19584" selection-start-column="219" selection-end-line="19584" selection-end-column="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1526462626287" expanded="true" signature="282:372" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/数据集处理.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="452">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
