@@ -14,6 +14,14 @@
       <option value="directory" />
     </option>
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Graduation_design$MDI.coverage" NAME="MDI Coverage Results" MODIFIED="1526458536963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI-特征选择" />
+    <SUITE FILE_PATH="coverage/Graduation_design$_.coverage" NAME="决策树各特征权重可视化-鸢尾花 Coverage Results" MODIFIED="1526457425967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化" />
+    <SUITE FILE_PATH="coverage/Graduation_design$boston_MDA.coverage" NAME="boston-MDA Coverage Results" MODIFIED="1526461445684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择" />
+    <SUITE FILE_PATH="coverage/Graduation_design$index.coverage" NAME="index Coverage Results" MODIFIED="1526457001300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花" />
+    <SUITE FILE_PATH="coverage/Graduation_design$show__2_.coverage" NAME="show (2) Coverage Results" MODIFIED="1526457577975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM" />
+    <SUITE FILE_PATH="coverage/Graduation_design$.coverage" NAME="数据集处理 Coverage Results" MODIFIED="1526462498084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -53,53 +61,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM/show.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1526446020759" expanded="true" signature="281:371" ph="..." />
+                <marker date="1526462626287" expanded="true" signature="282:372" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3d0f4bf-bf52-4e19-a5c6-a0b2f1740628/console.sql">
+      <file leaf-file-name="0-energydata原版.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/0-energydata原版.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="show.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM、lights、压力/show.py">
+      <file leaf-file-name="数据集处理.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/数据集处理.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="643">
-                <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,15 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.csv" />
-        <option value="$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/target.csv" />
-        <option value="$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/3.py" />
-        <option value="$PROJECT_DIR$/任务/2018-05-01基于sklearn-RF判断energy/data.csv" />
-        <option value="$PROJECT_DIR$/1、随机森林案例/决策树/决策树各特征权重可视化.py" />
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/show.py" />
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/决策树各特征权重可视化-energydata.py" />
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/决策树各特征权重可视化-energydata.py" />
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/TensorFlow/random_forest.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/TensorFlow/random_forest_mnist.py" />
         <option value="$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/boston.py" />
         <option value="$PROJECT_DIR$/任务/2018-04-27基于sklearn实现-RF判断energydata-200数据集/1.py" />
@@ -171,7 +148,6 @@
         <option value="$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/4.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/out.csv" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/交叉验证.py" />
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花/index.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM/feature_names-10.csv" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM、lights、压力/data-200.csv" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM、lights、压力/show.py" />
@@ -179,8 +155,18 @@
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM/show.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/energydata数据可视化/view.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林可视化/随机森林可视化.py" />
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花/index.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM/show.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/预测.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM、lights、压力/show.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI/MDI.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI-特征选择/MDI.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI-特征选择/boston.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择/boston.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择/boston-MDA.py" />
+        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/数据集处理.py" />
       </list>
     </option>
   </component>
@@ -193,7 +179,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -224,7 +210,37 @@
               <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
               <item name="7、预答辩" type="462c0819:PsiDirectoryNode" />
-              <item name="energydata数据集" type="462c0819:PsiDirectoryNode" />
+              <item name="预答辩所需代码" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="7、预答辩" type="462c0819:PsiDirectoryNode" />
+              <item name="预答辩所需代码" type="462c0819:PsiDirectoryNode" />
+              <item name="!!!数据的可视化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="7、预答辩" type="462c0819:PsiDirectoryNode" />
+              <item name="预答辩所需代码" type="462c0819:PsiDirectoryNode" />
+              <item name="!!!数据的可视化" type="462c0819:PsiDirectoryNode" />
+              <item name="energydata数据可视化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="7、预答辩" type="462c0819:PsiDirectoryNode" />
+              <item name="预答辩所需代码" type="462c0819:PsiDirectoryNode" />
+              <item name="!!数据预处理" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="7、预答辩" type="462c0819:PsiDirectoryNode" />
+              <item name="预答辩所需代码" type="462c0819:PsiDirectoryNode" />
+              <item name="!!数据预处理" type="462c0819:PsiDirectoryNode" />
+              <item name="数据集" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,22 +253,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!预测" />
       <recent name="$PROJECT_DIR$/任务" />
       <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/数据的可视化" />
       <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码" />
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata" />
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/支持向量机/鸢尾花" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化" />
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM" />
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差" />
-      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/均方误差" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理" />
       <recent name="$PROJECT_DIR$/7、预答辩/energydata数据集" />
+      <recent name="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,8 +283,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.view (1)">
-    <configuration name="交叉验证" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.数据集处理">
+    <configuration name="决策树各特征权重可视化-鸢尾花" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,12 +292,50 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/交叉验证.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/决策树各特征权重可视化-鸢尾花.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="数据集处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Graduation design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/数据集处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="MDI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Graduation design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI-特征选择" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI-特征选择/boston-MDI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,7 +359,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="show (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="boston-MDA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,12 +367,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM/show.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择/boston-MDA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,69 +386,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM、lights、压力" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/特征影响因素的可视化/energydata/无NSM、lights、压力/show.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="view (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Graduation design" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Graduation design" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/energydata数据可视化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/energydata数据可视化/view.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM/show.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.show (1)" />
       <item itemvalue="Python.show (2)" />
-      <item itemvalue="Python.view" />
-      <item itemvalue="Python.交叉验证" />
-      <item itemvalue="Python.view (1)" />
+      <item itemvalue="Python.决策树各特征权重可视化-鸢尾花" />
+      <item itemvalue="Python.MDI" />
+      <item itemvalue="Python.boston-MDA" />
+      <item itemvalue="Python.数据集处理" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.view (1)" />
-        <item itemvalue="Python.show (1)" />
-        <item itemvalue="Python.交叉验证" />
-        <item itemvalue="Python.view" />
+        <item itemvalue="Python.数据集处理" />
+        <item itemvalue="Python.boston-MDA" />
+        <item itemvalue="Python.MDI" />
         <item itemvalue="Python.show (2)" />
+        <item itemvalue="Python.决策树各特征权重可视化-鸢尾花" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +428,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -421,12 +437,13 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.48908296" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.39714867" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
-      <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.24248926" />
+      <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.18051118" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49875313" weight="0.14735337" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32586557" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.38764644" />
       <window_info id="Structure" order="1" sideWeight="0.5007278" side_tool="true" weight="0.26286116" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -437,7 +454,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" weight="0.32917705" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,78 +509,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM、lights、压力/show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1526446020759" expanded="true" signature="281:371" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1、随机森林案例/RF2/RF/RF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2910">
-          <caret line="197" column="45" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/决策树各特征权重可视化-RECS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" column="147" selection-start-line="7" selection-start-column="147" selection-end-line="7" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/任务/2018-05-02基于随机森林对energydata进行能耗预测/energydata_complete1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="19735" column="126" lean-forward="true" selection-start-line="19735" selection-start-column="126" selection-end-line="19735" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/均方误差/out0.csv" />
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/无时间因素-均方误差/correctAnswer.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/决策树各特征权重可视化-鸢尾花.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="1630" lean-forward="true" selection-start-line="1630" selection-end-line="1630" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/检验函数/dataset/1energydata-del1day.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -611,13 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="52" column="78" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/ensemble/forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="1225" column="33" lean-forward="true" selection-start-line="1225" selection-start-column="33" selection-end-line="1225" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -694,20 +635,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花/准确率、平均方差.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -785,34 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM/show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1526446020759" expanded="true" signature="281:371" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://e3d0f4bf-bf52-4e19-a5c6-a0b2f1740628/schema/毕业设计数据集处理/table/energydata">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -823,20 +725,134 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3d0f4bf-bf52-4e19-a5c6-a0b2f1740628/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM、lights、压力/show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="643">
+          <first_editor relative-caret-position="765">
             <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/energydata数据集/0energydata原版.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM/show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/随机森林-基尼值、交叉验证/RF-0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/决策树各特征权重可视化-RECS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花/准确率、平均方差.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/交叉验证/鸢尾花/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/ensemble/forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15076">
+          <caret line="1213" column="8" selection-start-line="1213" selection-start-column="8" selection-end-line="1213" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/无NSM、lights、压力/show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/决策树各特征权重可视化-鸢尾花.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!预测/预测.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDI-特征选择/boston-MDI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#33#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择/boston-MDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#33#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/0-energydata原版.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <marker date="1526462626287" expanded="true" signature="282:372" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1115">
+          <caret line="4702" column="4" selection-start-line="4702" selection-start-column="4" selection-end-line="4702" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/1-energydata-del1day.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/数据集/数据集处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

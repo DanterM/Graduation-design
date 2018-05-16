@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestRegressor
 from csv import reader
 from IPython.display import Image
 from sklearn import tree
@@ -15,6 +16,8 @@ import pydotplus
 # print(X)
 # y = iris.target
 # print(y)
+
+
 
 def load_csv(filename):  #导入csv文件
     dataset = list()
@@ -44,7 +47,8 @@ names = load_csv(feature)[0]
 
 
 # 训练模型，限制树的最大深度4
-clf = DecisionTreeClassifier(max_depth=4)
+# clf = DecisionTreeClassifier(max_depth=4)
+clf = RandomForestRegressor(n_estimators=100)
 #拟合模型
 clf.fit(X, y)
 
@@ -66,22 +70,22 @@ print(y_pos)
 print(x_importances)
 
 # # 横向柱状图
-plt.barh(y_pos, y_importances, align='center')
-plt.yticks(y_pos, x_importances)
-plt.xlabel('Importances')
-plt.xlim(0,1)
-plt.title('Features Importances')
-plt.tight_layout()
-plt.show()
+# plt.barh(y_pos, y_importances, align='center')
+# plt.yticks(y_pos, x_importances)
+# plt.xlabel('Importances')
+# plt.xlim(0,1)
+# plt.title('Features Importances')
+# plt.tight_layout()
+# plt.show()
 
 
 # 竖向柱状图
-# plt.bar(y_pos, y_importances, width=0.4, align='center', alpha=0.4)
-# plt.xticks(y_pos, x_importances)
-# plt.ylabel('Importances')
-# plt.ylim(0,1)
-# plt.title('Features Importances')
-# plt.show()
+plt.bar(y_pos, y_importances, width=0.4, align='center', alpha=0.4)
+plt.xticks(y_pos, x_importances)
+plt.ylabel('Importances')
+plt.ylim(0,1)
+plt.title('Features Importances')
+plt.show()
 
 
 

@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-train_df = pd.read_csv('../dataset/1energydata-del1day.csv')
+train_df = pd.read_csv('../dataset/1-energydata-del1day.csv')
 
 train_data = train_df['date']
 print(train_data)
