@@ -122,26 +122,47 @@ print('----------data.csv处理完成-时间格式已更改----------')
 # clf = DecisionTreeClassifier(max_depth=4) # date相关性最高
 # clf = DecisionTreeRegressor(max_depth=4) # date相对最高
 # clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均
-clf = RandomForestRegressor(oob_score = 'true',random_state =50) # 平均
+clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7604166666666666
+# clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
+
+
+
+
+
+
 
 
 
 #拟合模型
 clf.fit(X, y)
 predict = clf.predict(X)
+print('----------预测数据----------')
 print(predict)
 pd.DataFrame({"Id": range(1, len(predict)+1), "Label": predict}).to_csv('predict.csv', index=False, header=True)
 
 # predicted_data = load_csv('predict.csv')
-# print('----------predict.csv数据导入成功----------')
+print('----------predict.csv数据导出成功----------')
 
-print('----------已处理predict.csv数据----------')
+# print('----------已处理predict.csv数据----------')
 
 # print(predicted_data[0][0])
 
 
 
 
+# 误差在10Wh内正确率
+a = 0
+wucha = 10
+for i in range(len(y)):
+    if abs((predict - y)[i])<wucha:
+        a += 1
+acc = a/len(y)
+
+
+
+# print('误差在5Wh内正确率：',acc,'\n')  #// 0.583078022875817
+print('误差在10Wh内正确率：',acc,'\n')  #// 0.7617442810457516
+# print('误差在20Wh内正确率：',acc,'\n')  #// 0.8401756535947712
 
 
 

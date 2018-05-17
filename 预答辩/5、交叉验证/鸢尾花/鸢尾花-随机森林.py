@@ -36,7 +36,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=4)
 
 # 建立模型
 # knn = KNeighborsClassifier()
-randomForest = RandomForestClassifier(n_estimators=30)
+randomForest = RandomForestClassifier()
 # 训练模型
 # knn.fit(X_train, y_train)
 randomForest.fit(X_train,y_train)
@@ -54,7 +54,7 @@ from sklearn.cross_validation import cross_val_score  # K折交叉验证模块
 
 # 使用K折交叉验证模块
 # scores = cross_val_score(knn, X, y, cv=5, scoring='accuracy')
-scores = cross_val_score(randomForest, X, y, cv=5, scoring='accuracy')
+scores = cross_val_score(randomForest, X, y, cv=10, scoring='accuracy')
 
 KFold(4, n_folds=2)
 
@@ -69,26 +69,26 @@ print(scores.mean())
 
 
 
-import matplotlib.pyplot as plt  # 可视化模块
-
-# 建立测试参数集
-k_range = range(1, 31)
-
-k_scores = []
-
-# 藉由迭代的方式来计算不同参数对模型的影响，并返回交叉验证后的平均准确率
-for k in k_range:
-    # knn = KNeighborsClassifier(n_neighbors=k)
-    random = RandomForestRegressor()
-
-    # scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
-    scores = cross_val_score(random, X, y, cv=10, scoring='accuracy')
-
-    k_scores.append((scores).mean())
-
-# 可视化数据
-plt.plot(k_range, k_scores)
-plt.xlabel('Value of K for KNN')
-plt.ylabel('Cross-Validated Accuracy')
-plt.show()
+# import matplotlib.pyplot as plt  # 可视化模块
+#
+# # 建立测试参数集
+# k_range = range(1, 31)
+#
+# k_scores = []
+#
+# # 藉由迭代的方式来计算不同参数对模型的影响，并返回交叉验证后的平均准确率
+# for k in k_range:
+#     knn = KNeighborsClassifier(n_neighbors=k)
+#     # random = RandomForestRegressor(n_estimators=k)
+#
+#     scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
+#     # scores = cross_val_score(random, X, y, cv=10, scoring='accuracy')
+#
+#     k_scores.append((scores).mean())
+#
+# # 可视化数据
+# plt.plot(k_range, k_scores)
+# plt.xlabel('Value of K for KNN')
+# plt.ylabel('Cross-Validated Accuracy')
+# plt.show()
 
