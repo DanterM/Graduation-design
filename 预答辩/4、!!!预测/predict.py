@@ -58,6 +58,9 @@ X= load_csv('data.csv')
 # print(type(X[0][0]))
 print('----------data.csv导入成功----------')
 
+
+
+
 y = load_csv('target.csv')
 print('----------target.csv导入成功----------')
 # 处理结果target数组 得到y
@@ -95,7 +98,7 @@ for i in range(len(X)):
     # print(X[i][0])
     chuli = X[i][0].split(':')
     X[i][0] = int(chuli[0]) * 3600 + (int(chuli[1])*60)
-print('----------data.csv处理完成-时间格式已更改----------')
+
 
 # print(X)
 
@@ -114,14 +117,17 @@ print('----------data.csv处理完成-时间格式已更改----------')
 
 
 
-
+print('----------data.csv处理完成-时间格式已更改----------')
 
 
 
 # 选择训练模型
-# clf = DecisionTreeClassifier(max_depth=4) # date相关性最高
-# clf = DecisionTreeRegressor(max_depth=4) # date相对最高
-# clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均
+# clf = DecisionTreeClassifier(max_depth=4) # date相关性最高 //0.2519403594771242
+# clf = DecisionTreeRegressor(max_depth=4) # date相对最高 //0.3088235294117647
+# clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均 //0.9693116830065359
+
+
+
 clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7604166666666666
 # clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
 
@@ -130,18 +136,17 @@ clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7
 
 
 
-
-
-
 #拟合模型
 clf.fit(X, y)
+
+
 predict = clf.predict(X)
 print('----------预测数据----------')
 print(predict)
 pd.DataFrame({"Id": range(1, len(predict)+1), "Label": predict}).to_csv('predict.csv', index=False, header=True)
 
 # predicted_data = load_csv('predict.csv')
-print('----------predict.csv数据导出成功----------')
+print('----------predict.csv数据导出成功----------','\n')
 
 # print('----------已处理predict.csv数据----------')
 
@@ -152,7 +157,7 @@ print('----------predict.csv数据导出成功----------')
 
 # 误差在10Wh内正确率
 a = 0
-wucha = 10
+wucha = 2
 for i in range(len(y)):
     if abs((predict - y)[i])<wucha:
         a += 1

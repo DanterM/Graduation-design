@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 
-values = pd.read_csv('1-1、数据集energydata-del1day.csv')
+X = pd.read_csv('data.csv')
 
 # print(len(values)) //19584
 
@@ -22,7 +22,7 @@ values = pd.read_csv('1-1、数据集energydata-del1day.csv')
 # print(type(date))
 
 
-
+# 四种时间处理方式
 
 # 时间的格式化（1-144）或者0-1归一化
 # test = values['date'][133]
@@ -33,10 +33,37 @@ values = pd.read_csv('1-1、数据集energydata-del1day.csv')
 
 # print(values['date'][0]) #//00：00
 
-for i in range(len(values)):
-    chuli = values['date'][i].split(':')
-    values['date'][i] = int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1
+for i in range(len(X)):
+    chuli = X['date'][i].split(':')
+    X['date'][i] = int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1
+
+
+
+
+# 秒数处理时间
+# 从日期/时间变量可以生成其他额外的特性:每天从午夜开始的秒数(NSM)、周状态(周末或工作日)和一周的天数。
+
+
+# for i in range(len(X)):
+#     # print(X[i][0])
+#     chuli = X[i][0].split(':')
+#     X[i][0] = int(chuli[0]) * 3600 + (int(chuli[1])*60)
+
+# print(X)
+
+
+# 分钟数处理时间
+# for i in range(len(X)):
+#     chuli = X[i][0].split(':')
+#     X[i][0] = int(chuli[0]) * 60 + (int(chuli[1]))
+
+
+
+# 0-1分布处理时间
+# for i in range(len(X)):
+#     chuli = X[i][0].split(':')
+#     X[i][0] = (int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1)/len(X)
 
 # 时间特征处理后得到的数据集 time_manage
-time_manage = values
-
+time_manage = X
+print(time_manage)

@@ -183,9 +183,13 @@ def evaluate_algorithm(dataset, algorithm, n_folds, *args):
         predicted = algorithm(train_set, test_set, *args)
         print('predicted',predicted)
         actual = [row[-1] for row in fold]
+
+
         # 计算准确率
         accuracy = accuracy_metric(actual, predicted)
         scores.append(accuracy)
+
+
     return scores
 
 
@@ -195,16 +199,20 @@ def evaluate_algorithm(dataset, algorithm, n_folds, *args):
 # 开始
 # 加载数据
 # filename = 'data-200.csv'
-filename = 'data-200无时间.csv'
-# filename = 'data.csv'
+# filename = 'data-200无时间.csv'
+filename = 'data.csv'
 dataset = load_csv(filename)
+
+print(dataset)
+
+
 print('----------已读取data.csv----------')
 # print(type(dataset[0][0]))
 
-# for i in range(len(dataset)):
-#     chuli = dataset[i][0].split(':')
-#     print(chuli)
-#     dataset[i][0] = str(int(chuli[0]) * 3600 + (int(chuli[1])*60))
+for i in range(len(dataset)):
+    chuli = dataset[i][0].split(':')
+    print(chuli)
+    dataset[i][0] = str(int(chuli[0]) * 3600 + (int(chuli[1])*60))
 
 
 # print(dataset)
@@ -212,10 +220,12 @@ print('----------已读取data.csv----------')
 # 转换数据类型
 for i in range(len(dataset[0]) - 1):
     str_column_to_float(dataset, i)
+print(dataset)
+
 
 n_folds = 5  # 把原始数据集分为5份
 max_depth = 5
-min_size = 10
+min_size = 5
 
 scores = evaluate_algorithm(dataset, decision_tree, n_folds, max_depth, min_size)
 print('Scores: %s' % scores)

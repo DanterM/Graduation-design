@@ -83,9 +83,9 @@ print(names)
 
 
 
+# clf = RandomForestRegressor(max_depth=6,min_sample_leaf=100)
+clf = RandomForestRegressor(max_depth=6,oob_score='true')
 
-
-clf = RandomForestRegressor(max_depth=6,min_sample_leaf=100)
 #拟合模型
 clf.fit(X, y)
 
