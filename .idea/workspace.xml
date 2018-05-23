@@ -72,41 +72,7 @@
     <favorites_list name="Graduation design" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="能耗-时间点状图.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/!!!预答辩/3、!!!数据的可视化/energydata数据可视化/能耗-时间点状图.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predict.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
-              <folding>
-                <element signature="e#53#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RF-0.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/!!!预答辩/基尼值、交叉验证原理(含预测)/RF-0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -197,9 +163,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -223,6 +189,12 @@
               <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
               <item name="!!毕业论文" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="!!毕业论文" type="462c0819:PsiDirectoryNode" />
+              <item name="2、毕业设计说明书" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -686,16 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/!!!预答辩/3、!!!数据的可视化/energydata数据可视化/能耗-时间点状图.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/ensemble/forest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-416">
@@ -717,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/!!!预答辩/基尼值、交叉验证原理(含预测)/RF-0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/!!!预答辩/3、!!!数据的可视化/随机森林决策树可视化/所有特征/随机森林可视化-最终.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -738,6 +693,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/!!毕业论文/时间安排.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -745,6 +703,23 @@
           <folding>
             <element signature="e#53#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!!!预答辩/3、!!!数据的可视化/energydata数据可视化/能耗-时间点状图.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!!!预答辩/基尼值、交叉验证原理(含预测)/RF-0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
         </state>
       </provider>
     </entry>
