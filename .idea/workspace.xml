@@ -72,7 +72,7 @@
     <favorites_list name="Graduation design" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -375,7 +375,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.2924595" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -392,39 +392,39 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.5713525" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32917705" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="5" sideWeight="0.50124687" side_tool="true" weight="0.37699682" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49875313" weight="0.14735337" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32917705" />
+      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.5713525" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32484725" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50151974" side_tool="true" weight="0.20979765" />
       <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.2868217" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.20979765" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.22194514" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32484725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="5" sideWeight="0.50124687" side_tool="true" weight="0.37699682" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49875313" weight="0.14735337" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002633" side_tool="true" weight="0.32917705" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.5713525" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32917705" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32484725" />
-      <window_info id="Favorites" order="2" sideWeight="0.50151974" side_tool="true" weight="0.20979765" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,9 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1515">
           <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="e#53#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,9 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1515">
           <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="e#53#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,16 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/!!毕业论文/时间安排.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="e#53#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
