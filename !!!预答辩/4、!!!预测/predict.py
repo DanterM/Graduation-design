@@ -29,6 +29,8 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
+from sklearn.neighbors import KNeighborsRegressor
+
 
 
 def load_csv(filename):  #导入csv文件
@@ -129,7 +131,9 @@ print('----------data.csv处理完成-时间格式已更改----------')
 
 
 clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7604166666666666
+
 # clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
+# clf = KNeighborsRegressor() //0.04396446078431373
 
 
 
