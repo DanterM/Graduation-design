@@ -31,9 +31,7 @@ from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
 
-
-
-def load_csv(filename):  #导入csv文件
+def load_csv(filename): # 导入csv文件
     dataset = list()
     with open(filename, 'r') as file:
         csv_reader = reader(file)
@@ -43,53 +41,8 @@ def load_csv(filename):  #导入csv文件
             dataset.append(row)
     return dataset
 
-
-
-# 200个数据集导入
-# X= load_csv('data-200.csv')
-# print(X)
-#
-# y = load_csv('target-200.csv')[0]
-# print(y)
-
-
-
-# 全部数据集导入
+# 全部数据集导入!!!!!!
 train_data = load_csv('data.csv')
-# print(train_data)
-# print(len(train_data))
-# a = train_data[:2]
-# print(a)
-# print(int(len(train_data)*2/3))
-# print(type(X[0][0]))
-train_data = train_data[:int(len(train_data)*2/3)]
-# print(train_data)
-print('----------data.csv导入成功----------')
-
-
-
-
-train_target = load_csv('target.csv')
-print('----------target.csv导入成功----------')
-# 处理结果target数组 得到y
-a = []
-for i in train_target:
-    # print(i)
-    a.append(float(i[0]))
-    # a.append(i[0])
-
-train_target = a
-train_target = train_target[:int(len(train_target)*2/3)]
-print('----------target.csv处理完成----------')
-
-# print(y)
-
-
-
-
-
-
-
 
 # 三种时间处理方式
 
@@ -124,9 +77,41 @@ for i in range(len(train_data)):
 #     chuli = X[i][0].split(':')
 #     X[i][0] = (int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1)/len(X)
 
+print('----------data.csv时间格式已更改-----------')
 
 
-print('----------data.csv处理完成-时间格式已更改----------')
+
+
+# print(len(train_data))# 19584
+# print(train_data)
+# print(len(train_data))
+# a = train_data[:2]
+# print(a)
+# print(int(len(train_data)*2/3))
+# print(type(X[0][0]))
+X = train_data[:int(len(train_data)*2/3)]
+# print(len(X))# 13056
+print('----------data.csv导入成功----------')
+
+
+
+
+train_target = load_csv('target.csv')
+print('----------target.csv导入成功----------')
+# 处理结果target数组 得到y
+a = []
+for i in train_target:
+    # print(i)
+    a.append(float(i[0]))
+    # a.append(i[0])
+
+train_target = a
+y = train_target[:int(len(train_target)*2/3)]
+# print(len(y))# 13056
+print('----------target.csv处理完成----------')
+
+# print(y)
+
 
 
 
@@ -146,18 +131,17 @@ clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7
 
 
 
-
 #拟合模型
-clf.fit(train_data, train_target)
+clf.fit(X, y)
 
+# 预测使用特征
+predict_data = train_data[int(len(train_data)*2/3)+1:]
+# print(predict_data)
 
-predict_data = train_data[int(len(train_data)*2/3):]
-
-
-predict_target = clf.predict(train_data)
+predict_target = clf.predict(predict_data)
 print('----------预测数据----------')
 print(predict_target)
-pd.DataFrame({"Id": range(1, len(predict_target)+1), "Label": predict_target}).to_csv('predict.csv', index=False, header=True)
+pd.DataFrame({"Id": range(1, len(predict_target)+1), "Label": predict_target}).to_csv('predict_target.csv', index=False, header=True)
 
 # predicted_data = load_csv('predict.csv')
 print('----------predict.csv数据导出成功----------','\n')
@@ -167,15 +151,23 @@ print('----------predict.csv数据导出成功----------','\n')
 # print(predicted_data[0][0])
 
 
-
+correct_target = train_target[int(len(train_target)*2/3)+1:]
+print(correct_target)
+pd.DataFrame({"Id": range(1, len(correct_target)+1), "Label": correct_target}).to_csv('correct_target.csv', index=False, header=True)
+# print(len(train_target)) # 19584
+# print(len(train_data)) # 19584
+# print(len(predict_target)) # 6528
+# print(train_data[13056])
+# print(predict_data[0])
+# print(len(correct_target)) # 6528
 
 # 误差在10Wh内正确率
 a = 0
 wucha = 10
-for i in range(len(train_target)):
-    if abs((predict_target - train_target)[i])<wucha:
+for i in range(len(predict_data)):
+    if abs((predict_target - correct_target)[i])<wucha:
         a += 1
-acc = a/len(train_target)
+acc = a/len(predict_data)
 
 
 
@@ -189,30 +181,30 @@ print('误差在10Wh内正确率：',acc,'\n')  #// 0.7617442810457516
 
 # 计算RMSE
 print('----------RMSE----------')
-rmse = np.sqrt(((predict_target - train_target) ** 2).mean())
+rmse = np.sqrt(((predict_target - correct_target) ** 2).mean())
 print(rmse,'\n')
 
 
 
 
 # R方 越接近1 越好
-average = np.sum(train_target)/len(train_target) # 平均值
+average = np.sum(correct_target)/len(correct_target) # 平均值
 
 a = []
-for i in range(len(train_target)):
+for i in range(len(correct_target)):
     a.append(average)
-r = 1 - (((predict_target - train_target)**2).sum()/(((predict_target - a)**2).sum()))
+r = 1 - (((predict_target - correct_target)**2).sum()/(((predict_target - a)**2).sum()))
 print('----------R方----------')
 print(r,'\n')
 
 
 # MAE 越小越好
-mae = (abs((predict_target - train_target)).sum())/len(train_target)
+mae = (abs((predict_target - correct_target)).sum())/len(correct_target)
 print('----------平均绝对误差（MAE）----------')
 print(mae,'\n')
 
 # MAPE (0-1)之间 越小越好
-mape = (abs((predict_target - train_target))/predict_target).sum()/len(train_target)
+mape = (abs((predict_target - correct_target))/predict_target).sum()/len(correct_target)
 print('----------平均绝对百分误差（MAPE）----------')
 print(mape,'\n')
 

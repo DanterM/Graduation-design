@@ -7,11 +7,6 @@ import pydotplus
 from csv import reader
 
 
-# filename = 'data-200.csv'
-
-
-# 仍然使用自带的iris数据
-iris = datasets.load_iris()
 
 def load_csv(filename):  #导入csv文件
     dataset = list()
@@ -31,16 +26,6 @@ X= load_csv(data)
 for i in range(len(X)):
     chuli = X[i][0].split(':')
     X[i][0] = int(chuli[0]) * 60 + (int(chuli[1]))
-
-# print(X)
-
-
-target = 'target.csv'
-y = load_csv(target)[0]
-# print(len(y))
-# for i in range(len(y)):
-#     str_column_to_float(y, i)
-# print(y)
 
 y = load_csv('target.csv')
 # 处理结果target数组 得到y
@@ -84,10 +69,26 @@ print(names)
 
 
 # clf = RandomForestRegressor(max_depth=6,min_sample_leaf=100)
-clf = RandomForestRegressor(max_depth=6,oob_score='true')
+clf = RandomForestRegressor(max_depth=6,oob_score='true',n_estimators=10)
 
 #拟合模型
 clf.fit(X, y)
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+y_importances = clf.feature_importances_
+data = 'feature_names-26.csv'
+x_importances = load_csv(data)[0]
+y_pos = np.arange(len(x_importances))
+plt.barh(y_pos, y_importances, align='center')
+plt.yticks(y_pos, x_importances)
+plt.xlabel('Importances')
+plt.xlim(0,0.5)
+plt.title('Features Importances')
+plt.tight_layout()
+plt.show()
+
 
 
 
