@@ -73,11 +73,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="predict.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="2445">
+              <caret line="163" column="8" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+              <folding>
+                <element signature="e#53#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predict1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="e#53#71#0" expanded="true" />
               </folding>
@@ -113,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!数据预处理/随机森林MDA-特征选择/boston-MDA.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/energydata数据可视化/view.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/2无NSM/show.py" />
         <option value="$PROJECT_DIR$/7、预答辩/预答辩所需代码/!!!数据的可视化/特征影响因素的可视化/energydata/3所有特征/show.py" />
@@ -164,6 +175,7 @@
         <option value="$PROJECT_DIR$/预答辩/基尼值、交叉验证原理(含预测)/RF-0.py" />
         <option value="$PROJECT_DIR$/预答辩/4、!!!预测/predict.py" />
         <option value="$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py" />
+        <option value="$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict1.py" />
       </list>
     </option>
   </component>
@@ -177,9 +189,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="-22" />
     <option name="width" value="1440" />
-    <option name="height" value="922" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -192,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,19 +225,25 @@
             <path>
               <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
-              <item name="!!毕业论文" type="462c0819:PsiDirectoryNode" />
+              <item name="ALL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
-              <item name="!!毕业论文" type="462c0819:PsiDirectoryNode" />
-              <item name="2、毕业论文" type="462c0819:PsiDirectoryNode" />
+              <item name="ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="1、随机森林案例" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation design" type="462c0819:PsiDirectoryNode" />
+              <item name="ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="1、随机森林案例" type="462c0819:PsiDirectoryNode" />
+              <item name="RF1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.predict">
+  <component name="RunManager" selected="Python.predict1">
     <configuration name="随机森林可视化-最终" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -353,24 +371,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="predict (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Graduation design" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/预答辩/4、!!!预测" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/预答辩/4、!!!预测/predict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Graduation design" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -389,20 +389,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="predict1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Graduation design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/!!!预答辩/4、!!!预测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.predict (1)" />
       <item itemvalue="Python.RF-0" />
       <item itemvalue="Python.随机森林可视化-最终" />
       <item itemvalue="Python.所有特征重要性" />
       <item itemvalue="Python.predict" />
+      <item itemvalue="Python.predict1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.predict1" />
         <item itemvalue="Python.predict" />
         <item itemvalue="Python.所有特征重要性" />
         <item itemvalue="Python.随机森林可视化-最终" />
         <item itemvalue="Python.RF-0" />
-        <item itemvalue="Python.predict (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -421,11 +439,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.23255815" />
+      <window_info content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.23255815" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002633" side_tool="true" weight="0.32917705" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.27805486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.457606" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.20979765" />
@@ -437,39 +456,39 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.5713525" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32917705" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="5" sideWeight="0.50124687" side_tool="true" weight="0.37699682" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49875313" weight="0.14735337" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32917705" />
+      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.5713525" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32484725" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50151974" side_tool="true" weight="0.20979765" />
       <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.2868217" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.20979765" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" visible="true" weight="0.22194514" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32484725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="5" sideWeight="0.50124687" side_tool="true" weight="0.37699682" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49875313" weight="0.14735337" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002633" side_tool="true" weight="0.32917705" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299389" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.5713525" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32917705" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32484725" />
-      <window_info id="Favorites" order="2" sideWeight="0.50151974" side_tool="true" weight="0.20979765" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3299389" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,6 +529,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#53#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -767,10 +796,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ALL/1、随机森林案例/RF1/RandomForest修正.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALL/1、随机森林案例/RF1/RandomForest0.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="2445">
+          <caret line="163" column="8" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+          <folding>
+            <element signature="e#53#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!!!预答辩/4、!!!预测/predict1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
           <folding>
             <element signature="e#53#71#0" expanded="true" />
           </folding>

@@ -55,24 +55,31 @@ def load_csv(filename):  #导入csv文件
 
 
 # 全部数据集导入
-X= load_csv('data.csv')
-# print(len(X))
+train_data = load_csv('data.csv')
+# print(train_data)
+# print(len(train_data))
+# a = train_data[:2]
+# print(a)
+# print(int(len(train_data)*2/3))
 # print(type(X[0][0]))
+train_data = train_data[:int(len(train_data)*2/3)]
+# print(train_data)
 print('----------data.csv导入成功----------')
 
 
 
 
-y = load_csv('target.csv')
+train_target = load_csv('target.csv')
 print('----------target.csv导入成功----------')
 # 处理结果target数组 得到y
 a = []
-for i in y:
+for i in train_target:
     # print(i)
     a.append(float(i[0]))
     # a.append(i[0])
 
-y = a
+train_target = a
+train_target = train_target[:int(len(train_target)*2/3)]
 print('----------target.csv处理完成----------')
 
 # print(y)
@@ -96,10 +103,10 @@ print('----------target.csv处理完成----------')
 # 从日期/时间变量可以生成其他额外的特性:每天从午夜开始的秒数(NSM)、周状态(周末或工作日)和一周的天数。
 
 
-for i in range(len(X)):
+for i in range(len(train_data)):
     # print(X[i][0])
-    chuli = X[i][0].split(':')
-    X[i][0] = int(chuli[0]) * 3600 + (int(chuli[1])*60)
+    chuli = train_data[i][0].split(':')
+    train_data[i][0] = int(chuli[0]) * 3600 + (int(chuli[1])*60)
 
 
 # print(X)
@@ -141,13 +148,16 @@ clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7
 
 
 #拟合模型
-clf.fit(X, y)
+clf.fit(train_data, train_target)
 
 
-predict = clf.predict(X)
+predict_data = train_data[int(len(train_data)*2/3):]
+
+
+predict_target = clf.predict(train_data)
 print('----------预测数据----------')
-print(predict)
-pd.DataFrame({"Id": range(1, len(predict)+1), "Label": predict}).to_csv('predict.csv', index=False, header=True)
+print(predict_target)
+pd.DataFrame({"Id": range(1, len(predict_target)+1), "Label": predict_target}).to_csv('predict.csv', index=False, header=True)
 
 # predicted_data = load_csv('predict.csv')
 print('----------predict.csv数据导出成功----------','\n')
@@ -162,10 +172,10 @@ print('----------predict.csv数据导出成功----------','\n')
 # 误差在10Wh内正确率
 a = 0
 wucha = 10
-for i in range(len(y)):
-    if abs((predict - y)[i])<wucha:
+for i in range(len(train_target)):
+    if abs((predict_target - train_target)[i])<wucha:
         a += 1
-acc = a/len(y)
+acc = a/len(train_target)
 
 
 
@@ -179,30 +189,30 @@ print('误差在10Wh内正确率：',acc,'\n')  #// 0.7617442810457516
 
 # 计算RMSE
 print('----------RMSE----------')
-rmse = np.sqrt(((predict - y) ** 2).mean())
+rmse = np.sqrt(((predict_target - train_target) ** 2).mean())
 print(rmse,'\n')
 
 
 
 
 # R方 越接近1 越好
-average = np.sum(y)/len(y) # 平均值
+average = np.sum(train_target)/len(train_target) # 平均值
 
 a = []
-for i in range(len(y)):
+for i in range(len(train_target)):
     a.append(average)
-r = 1 - (((predict - y)**2).sum()/(((predict - a)**2).sum()))
+r = 1 - (((predict_target - train_target)**2).sum()/(((predict_target - a)**2).sum()))
 print('----------R方----------')
 print(r,'\n')
 
 
 # MAE 越小越好
-mae = (abs((predict - y)).sum())/len(y)
+mae = (abs((predict_target - train_target)).sum())/len(train_target)
 print('----------平均绝对误差（MAE）----------')
 print(mae,'\n')
 
 # MAPE (0-1)之间 越小越好
-mape = (abs((predict - y))/predict).sum()/len(y)
+mape = (abs((predict_target - train_target))/predict_target).sum()/len(train_target)
 print('----------平均绝对百分误差（MAPE）----------')
 print(mape,'\n')
 
