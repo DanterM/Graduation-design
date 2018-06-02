@@ -121,28 +121,14 @@ print('----------data.csv处理完成-时间格式已更改----------')
 
 
 
-
-
-
-
-
-
-
-
-
-
-# 训练模型，限制树的最大深度4
+from sklearn.svm import SVC
+# 训练模型，限制树的最大深度X
 # clf = DecisionTreeClassifier(max_depth=4) # date相关性最高
-# clf = DecisionTreeRegressor(max_depth=4) # date相对最高
+# clf = DecisionTreeRegressor(max_depth=10) # date相对最高
 # clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均
 clf = RandomForestRegressor(oob_score = 'true',random_state =50) # 平均
-
-
-
 #拟合模型
 clf.fit(X, y)
-
-
 y_importances = clf.feature_importances_
 print('----------y_importances----------','\n',y_importances)
 

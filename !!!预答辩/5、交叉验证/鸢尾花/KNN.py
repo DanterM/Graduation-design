@@ -84,7 +84,7 @@ for k in k_range:
 
     scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
     # scores = cross_val_score(random, X, y, cv=10, scoring='accuracy')
-
+    print(type(scores))
     k_scores.append((scores).mean())
 
 # 可视化数据

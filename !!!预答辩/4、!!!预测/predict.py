@@ -30,6 +30,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
+from sklearn.svm import SVC
 
 
 
@@ -78,15 +79,10 @@ print('----------target.csv处理完成----------')
 # print(y)
 
 
-
-
-
-
-
-
 # 三种时间处理方式
 
 # 1-144处理时间
+# 
 # for i in range(len(X)):
 #     chuli = X[i][0].split(':')
 #     X[i][0] = int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1
@@ -131,14 +127,14 @@ print('----------data.csv处理完成-时间格式已更改----------')
 
 
 # clf = RandomForestRegressor(n_estimators=10,oob_score = 'true') # 平均 // 0.7604166666666666
-clf = RandomForestRegressor(n_estimators=10,max_depth=1000) # 平均 // 0.7604166666666666
+# clf = RandomForestRegressor(n_estimators=10,max_depth=1000) # 平均 // 0.7604166666666666
 
 
 # clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
-# clf = KNeighborsRegressor() //0.04396446078431373
-
-
-
+# clf = KNeighborsRegressor(n_neighbors=2)   #0.3472732843137255
+# clf = KNeighborsRegressor(n_neighbors=10)   #0.3217933006535948
+# clf = KNeighborsRegressor(n_neighbors=100)   #0.2907986111111111
+clf = SVC()
 
 
 
@@ -189,7 +185,6 @@ print(rmse,'\n')
 
 # R方 越接近1 越好
 average = np.sum(y)/len(y) # 平均值
-
 a = []
 for i in range(len(y)):
     a.append(average)
@@ -207,4 +202,21 @@ print(mae,'\n')
 mape = (abs((predict - y))/predict).sum()/len(y)
 print('----------平均绝对百分误差（MAPE）----------')
 print(mape,'\n')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

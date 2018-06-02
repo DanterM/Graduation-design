@@ -9,6 +9,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
+from sklearn.svm import SVC
 
 
 def load_csv(filename):  #导入csv文件
@@ -92,29 +93,34 @@ print('----------data.csv处理完成-时间格式已更改----------')
 #     chuli = X[i][0].split(':')
 #     X[i][0] = (int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1)/len(X)
 
+from sklearn.neighbors import KNeighborsClassifier  # K最近邻(kNN，k-NearestNeighbor)分类算法
 
 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=4)
 
 # randomForest = RandomForestClassifier()
-randomForest = RandomForestRegressor()
+# randomForest = RandomForestRegressor()
 # randomForest = DecisionTreeClassifier()
 # randomForest = DecisionTreeRegressor()
+knn = KNeighborsClassifier()
+# knn = SVC()
 
-
-randomForest.fit(X_train,y_train)
-print('正确率为：',randomForest.score(X_test, y_test))
+knn.fit(X_train, y_train)
+# randomForest.fit(X_train,y_train)
+# print('正确率为：',randomForest.score(X_test, y_test))
+print('正确率为：',knn.score(X_test, y_test))
 
 
 from sklearn.cross_validation import cross_val_score  # K折交叉验证模块
 from sklearn.cross_validation import KFold
 
 # 使用K折交叉验证模块
-# scores = cross_val_score(knn, X, y, cv=5, scoring='accuracy')
-scores = cross_val_score(randomForest, X, y, cv=5, scoring='accuracy')
-
-KFold(5, n_folds=2)
+scores = cross_val_score(knn, X, y, cv=5, scoring='accuracy')
+# scores = cross_val_score(randomForest, X, y, cv=10, scoring='accuracy')
+# scores = cross_val_score(randomForest, X, y, cv=10, scoring='r2') #重复cv次交叉验证
+# scores = cross_val_score(randomForest, X, y, cv=10, scoring='precision')
+KFold(10, n_folds=2)
 
 
 # 将5次的预测准确率打印出
@@ -126,69 +132,26 @@ print(scores.mean())
 
 
 
+import matplotlib.pyplot as plt  # 可视化模块
+
+# 建立测试参数集
+k_range = range(1, 100)
+
+k_scores = []
+
+# 藉由迭代的方式来计算不同参数对模型的影响，并返回交叉验证后的平均准确率
+for k in k_range:
+    knn = KNeighborsClassifier(n_neighbors=k)
+    # random = RandomForestRegressor(n_estimators=k)
+
+    scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
+    # scores = cross_val_score(random, X, y, cv=10, scoring='accuracy')
+
+    k_scores.append((scores).mean())
 
 
-# # 选择训练模型
-# # clf = DecisionTreeClassifier(max_depth=4) # date相关性最高
-# # clf = DecisionTreeRegressor(max_depth=4) # date相对最高
-# # clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均
-# clf = RandomForestRegressor(oob_score = 'true',random_state =50) # 平均
-#
-#
-#
-#
-#
-#
-#
-#
-#
-# #拟合模型
-# clf.fit(X, y)
-# predict = clf.predict(X)
-# print(predict)
-# pd.DataFrame({"Id": range(1, len(predict)+1), "Label": predict}).to_csv('predict.csv', index=False, header=True)
-#
-# # predicted_data = load_csv('predict.csv')
-# # print('----------predict.csv数据导入成功----------')
-#
-# print('----------已处理predict.csv数据----------')
-#
-# # print(predicted_data[0][0])
-#
-#
-#
-#
-#
-#
-#
-# # 评价函数
-#
-# # 计算RMSE
-# print('----------RMSE----------')
-# rmse = np.sqrt(((predict - y) ** 2).mean())
-# print(rmse,'\n')
-#
-#
-#
-#
-# # R方 越接近1 越好
-# average = np.sum(y)/len(y) # 平均值
-#
-# a = []
-# for i in range(len(y)):
-#     a.append(average)
-# r = 1 - (((predict - y)**2).sum()/(((predict - a)**2).sum()))
-# print('----------R方----------')
-# print(r,'\n')
-#
-#
-# # MAE 越小越好
-# mae = (abs((predict - y)).sum())/len(y)
-# print('----------平均绝对误差（MAE）----------')
-# print(mae,'\n')
-#
-# # MAPE (0-1)之间 越小越好
-# mape = (abs((predict - y))/predict).sum()/len(y)
-# print('----------平均绝对百分误差（MAPE）----------')
-# print(mape,'\n')
-#
+# 可视化数据
+plt.plot(k_range, k_scores)
+plt.xlabel('Value of K for RandomForest')
+plt.ylabel('Cross-Validated Accuracy')
+plt.show()

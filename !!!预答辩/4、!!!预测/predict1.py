@@ -30,6 +30,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
+from sklearn.svm import SVC
+
 
 def load_csv(filename): # 导入csv文件
     dataset = list()
@@ -89,7 +91,9 @@ print('----------data.csv时间格式已更改-----------')
 # print(a)
 # print(int(len(train_data)*2/3))
 # print(type(X[0][0]))
-X = train_data[:int(len(train_data)*2/3)]
+# 
+# 
+X = train_data[:int(len(train_data)*9/10)]
 # print(len(X))# 13056
 print('----------data.csv导入成功----------')
 
@@ -106,7 +110,7 @@ for i in train_target:
     # a.append(i[0])
 
 train_target = a
-y = train_target[:int(len(train_target)*2/3)]
+y = train_target[:int(len(train_target)*9/10)]
 # print(len(y))# 13056
 print('----------target.csv处理完成----------')
 
@@ -117,25 +121,19 @@ print('----------target.csv处理完成----------')
 
 # 选择训练模型
 # clf = DecisionTreeClassifier(max_depth=4) # date相关性最高 //0.2519403594771242
-# clf = DecisionTreeRegressor(max_depth=4) # date相对最高 //0.3088235294117647
+# clf = DecisionTreeRegressor(max_depth=10) # date相对最高 //0.3088235294117647
 # clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均 //0.9693116830065359
-
-
-
-clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7604166666666666
-
+# clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7604166666666666
 # clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
 # clf = KNeighborsRegressor() //0.04396446078431373
-
-
-
+clf = SVC()
 
 
 #拟合模型
 clf.fit(X, y)
 
 # 预测使用特征
-predict_data = train_data[int(len(train_data)*2/3)+1:]
+predict_data = train_data[int(len(train_data)*9/10)+1:]
 # print(predict_data)
 
 predict_target = clf.predict(predict_data)
@@ -151,7 +149,7 @@ print('----------predict.csv数据导出成功----------','\n')
 # print(predicted_data[0][0])
 
 
-correct_target = train_target[int(len(train_target)*2/3)+1:]
+correct_target = train_target[int(len(train_target)*9/10)+1:]
 print(correct_target)
 pd.DataFrame({"Id": range(1, len(correct_target)+1), "Label": correct_target}).to_csv('correct_target.csv', index=False, header=True)
 # print(len(train_target)) # 19584
@@ -207,4 +205,3 @@ print(mae,'\n')
 mape = (abs((predict_target - correct_target))/predict_target).sum()/len(correct_target)
 print('----------平均绝对百分误差（MAPE）----------')
 print(mape,'\n')
-
