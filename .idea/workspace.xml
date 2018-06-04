@@ -163,7 +163,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="79" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
@@ -408,7 +408,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="79" width="1440" height="807" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" x="893" y="166" width="373" height="687" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.1987315" />
       <window_info anchor="bottom" id="TODO" order="6" />
