@@ -53,7 +53,7 @@ def load_csv(filename):  #导入csv文件
 
 
 # 全部数据集导入
-X= load_csv('data.csv')
+X= load_csv('data1.csv')
 # print(len(X))
 # print(type(X[0][0]))
 print('----------data.csv导入成功----------')
@@ -74,7 +74,13 @@ print('----------target.csv处理完成----------')
 
 
 
-
+i = 144*4
+for a in range(19):
+    for j in range(144*2):
+        b=i+j
+        X[b][26]=1
+        # print('第'+str(b+1)+'行的周末数据为'+ str(X[b][26]))
+    i = i + 144*7
 
 
 
@@ -91,20 +97,19 @@ print('----------target.csv处理完成----------')
 # 从日期/时间变量可以生成其他额外的特性:每天从午夜开始的秒数(NSM)、周状态(周末或工作日)和一周的天数。
 
 
-for i in range(len(X)):
-    # print(X[i][0])
-    chuli = X[i][0].split(':')
-    X[i][0] = int(chuli[0]) * 3600 + (int(chuli[1])*60)
-print('----------data.csv处理完成-时间格式已更改----------')
+# for i in range(len(X)):
+#     # print(X[i][0])
+#     chuli = X[i][0].split(':')
+#     X[i][0] = int(chuli[0]) * 3600 + (int(chuli[1])*60)
+# print('----------data.csv处理完成-时间格式已更改----------')
 
 # print(X)
 
 
 # 分钟数处理时间
-# for i in range(len(X)):
-#     chuli = X[i][0].split(':')
-#     X[i][0] = int(chuli[0]) * 60 + (int(chuli[1]))
-
+for i in range(len(X)):
+    chuli = X[i][0].split(':')
+    X[i][0] = int(chuli[0]) * 60 + (int(chuli[1]))
 
 
 # 0-1分布处理时间
@@ -156,7 +161,7 @@ print('----------y_pos----------','\n',y_pos)
 plt.barh(y_pos, y_importances, align='center')
 plt.yticks(y_pos, x_importances)
 plt.xlabel('Importances')
-plt.xlim(0,0.5)
+plt.xlim(0,1)
 plt.title('Features Importances')
 plt.tight_layout()
 plt.show()

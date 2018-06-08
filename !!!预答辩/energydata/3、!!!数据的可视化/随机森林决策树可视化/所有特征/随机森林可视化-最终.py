@@ -23,6 +23,7 @@ data = 'data.csv'
 X= load_csv(data)
 # for i in range(len(X[0])):
 #     str_column_to_float(X, i)
+# 分钟数
 for i in range(len(X)):
     chuli = X[i][0].split(':')
     X[i][0] = int(chuli[0]) * 60 + (int(chuli[1]))
@@ -69,7 +70,7 @@ print(names)
 
 
 # clf = RandomForestRegressor(max_depth=6,min_sample_leaf=100)
-clf = RandomForestRegressor(max_depth=6,oob_score='true',n_estimators=10)
+clf = RandomForestRegressor(max_depth=4,oob_score='true',n_estimators=10)
 
 #拟合模型
 clf.fit(X, y)
@@ -84,7 +85,7 @@ y_pos = np.arange(len(x_importances))
 plt.barh(y_pos, y_importances, align='center')
 plt.yticks(y_pos, x_importances)
 plt.xlabel('Importances')
-plt.xlim(0,0.5)
+plt.xlim(0,1)
 plt.title('Features Importances')
 plt.tight_layout()
 plt.show()

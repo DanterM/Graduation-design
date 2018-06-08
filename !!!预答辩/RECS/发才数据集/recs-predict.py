@@ -3,26 +3,6 @@
 import numpy as np
 import pandas as pd
 
-
-# values = pd.read_csv('1-1、数据集energydata-del1day.csv')
-# values = values[:200]
-#
-# print(len(values))
-#
-# for i in range(len(values)):
-#     chuli = values['date'][i].split(':')
-#     values['date'][i] = int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1
-#     # print('第',i,'行数据',values['date'][i])
-# time_manage = values
-#
-#
-# print(time_manage.values)
-#
-# X = time_manage.values
-# print(X)
-
-
-
 from csv import reader
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import DecisionTreeRegressor
@@ -93,11 +73,11 @@ print('----------data.csv处理完成-时间格式已更改----------')
 # clf = RandomForestRegressor(n_estimators=10,max_depth=1000) # 平均 // 0.7604166666666666
 
 
-# clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
+clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 //0.7679738562091504
 # clf = KNeighborsRegressor(n_neighbors=2)   #0.3472732843137255
 # clf = KNeighborsRegressor(n_neighbors=10)   #0.3217933006535948
 # clf = KNeighborsRegressor(n_neighbors=100)   #0.2907986111111111
-clf = SVC()
+# clf = SVC()
 
 
 

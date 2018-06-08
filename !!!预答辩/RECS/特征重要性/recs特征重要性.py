@@ -24,7 +24,16 @@ def load_csv(filename):  #导入csv文件
 
 # 全部数据集导入
 X= load_csv('data.csv')
-print(len(X))
+# print(X)
+# print(len(X))
+# print(type(X[0][0]))
+# print(X[0][0])
+for i in range(len(X)):
+    for j in range(len(X[0])):
+        X[i][j]=float(X[i][j])
+print(type(X[0][0]))
+
+# X[0][0]=float(X[0][0])
 # print(type(X[0][0]))
 print('----------data.csv导入成功----------')
 
