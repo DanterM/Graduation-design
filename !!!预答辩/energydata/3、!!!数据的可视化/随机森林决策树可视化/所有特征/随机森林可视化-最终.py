@@ -70,12 +70,10 @@ print(names)
 
 
 # clf = RandomForestRegressor(max_depth=6,min_sample_leaf=100)
-clf = RandomForestRegressor(max_depth=4,oob_score='true',n_estimators=10)
-
+clf = RandomForestRegressor(max_depth=3,oob_score='true',n_estimators=10,criterion='mse')  #  ,criterion='entropy' ，criterion='mse'
+# 分类器都是criterion='entropy'  criterion='gini'    回归器都是criterion='mse'
 #拟合模型
 clf.fit(X, y)
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 y_importances = clf.feature_importances_
@@ -101,9 +99,9 @@ Estimators = clf.estimators_
 # print('Estimators',Estimators)
 
 
-for index, model in enumerate(Estimators):
+for index, clf in enumerate(Estimators):
     filename = 'energydata_' + str(index) + '.pdf'
-    dot_data = tree.export_graphviz(model , out_file=None,
+    dot_data = tree.export_graphviz(clf , out_file=None,
                          feature_names=names,
                          class_names=names,
                          filled=True, rounded=True,
