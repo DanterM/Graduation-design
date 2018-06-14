@@ -29,7 +29,7 @@ train_appliances = train_df['Appliances']
 
 # 数据集共136天
 # 循环遍历数据集所有天数状态图
-for i in range(136):
+for i in range(3):
     plt.plot(train_date[i*144:(i+1)*144], train_appliances[i*144:(i+1)*144])
 
 

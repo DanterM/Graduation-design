@@ -123,10 +123,10 @@ print('----------target.csv处理完成----------')
 # clf = DecisionTreeClassifier(max_depth=4) # date相关性最高 //0.2519403594771242
 # clf = DecisionTreeRegressor(max_depth=10) # date相对最高 //0.3088235294117647
 # clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均 //0.9693116830065359
-# clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7604166666666666
+clf = RandomForestRegressor(n_estimators=100,oob_score = 'true') # 平均 // 0.7604166666666666
 # clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
 # clf = KNeighborsRegressor() //0.04396446078431373
-clf = SVC()
+# clf = SVC()
 
 
 #拟合模型
@@ -161,7 +161,7 @@ pd.DataFrame({"Id": range(1, len(correct_target)+1), "Label": correct_target}).t
 
 # 误差在10Wh内正确率
 a = 0
-wucha = 10
+wucha = 100
 for i in range(len(predict_data)):
     if abs((predict_target - correct_target)[i])<wucha:
         a += 1
@@ -169,8 +169,11 @@ acc = a/len(predict_data)
 
 
 
-# print('误差在5Wh内正确率：',acc,'\n')  #// 0.583078022875817
-print('误差在10Wh内正确率：',acc,'\n')  #// 0.7617442810457516
+# print('误差在20Wh(2%)内正确率：',acc,'\n')  #// 0.34
+# print('误差在50(5%)Wh内正确率：',acc,'\n')  #// 0.4576098059244127
+print('误差在100(10%)Wh内正确率：',acc,'\n')  #// 0.643003064351379
+
+
 # print('误差在20Wh内正确率：',acc,'\n')  #// 0.8401756535947712
 
 

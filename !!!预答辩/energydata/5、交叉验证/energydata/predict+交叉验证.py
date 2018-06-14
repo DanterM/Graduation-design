@@ -100,23 +100,23 @@ from sklearn.neighbors import KNeighborsClassifier  # K最近邻(kNN，k-Nearest
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=4)
 
 # randomForest = RandomForestClassifier()
-# randomForest = RandomForestRegressor()
+randomForest = RandomForestRegressor()
 # randomForest = DecisionTreeClassifier()
 # randomForest = DecisionTreeRegressor()
-knn = KNeighborsClassifier()
+# knn = KNeighborsClassifier()
 # knn = SVC()
 
-knn.fit(X_train, y_train)
-# randomForest.fit(X_train,y_train)
+# knn.fit(X_train, y_train)
+randomForest.fit(X_train,y_train)
 # print('正确率为：',randomForest.score(X_test, y_test))
-print('正确率为：',knn.score(X_test, y_test))
+print('正确率为：',randomForest.score(X_test, y_test))
 
 
 from sklearn.cross_validation import cross_val_score  # K折交叉验证模块
 from sklearn.cross_validation import KFold
 
 # 使用K折交叉验证模块
-scores = cross_val_score(knn, X, y, cv=5, scoring='accuracy')
+scores = cross_val_score(randomForest, X, y, cv=5, scoring='accuracy')
 # scores = cross_val_score(randomForest, X, y, cv=10, scoring='accuracy')
 # scores = cross_val_score(randomForest, X, y, cv=10, scoring='r2') #重复cv次交叉验证
 # scores = cross_val_score(randomForest, X, y, cv=10, scoring='precision')
@@ -141,11 +141,11 @@ k_scores = []
 
 # 藉由迭代的方式来计算不同参数对模型的影响，并返回交叉验证后的平均准确率
 for k in k_range:
-    knn = KNeighborsClassifier(n_neighbors=k)
-    # random = RandomForestRegressor(n_estimators=k)
+    # knn = KNeighborsClassifier(n_neighbors=k)
+    random = RandomForestRegressor(n_estimators=k)
 
-    scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
-    # scores = cross_val_score(random, X, y, cv=10, scoring='accuracy')
+    # scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
+    scores = cross_val_score(random, X, y, cv=10, scoring='accuracy')
 
     k_scores.append((scores).mean())
 

@@ -147,7 +147,7 @@ print('----------predict.csv数据导出成功----------','\n')
 
 # 误差在10Wh内正确率
 a = 0
-wucha = 10
+wucha = 20
 for i in range(len(y)):
     if abs((predict - y)[i])<wucha:
         a += 1
