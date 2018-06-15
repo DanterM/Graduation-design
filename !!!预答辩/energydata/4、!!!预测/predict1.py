@@ -4,25 +4,6 @@ import numpy as np
 import pandas as pd
 
 
-# values = pd.read_csv('1-1、数据集energydata-del1day.csv')
-# values = values[:200]
-#
-# print(len(values))
-#
-# for i in range(len(values)):
-#     chuli = values['date'][i].split(':')
-#     values['date'][i] = int(chuli[0]) * 6 + (int(chuli[1]) / 10) + 1
-#     # print('第',i,'行数据',values['date'][i])
-# time_manage = values
-#
-#
-# print(time_manage.values)
-#
-# X = time_manage.values
-# print(X)
-
-
-
 from csv import reader
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import DecisionTreeRegressor
@@ -118,15 +99,17 @@ print('----------target.csv处理完成----------')
 # clf = DecisionTreeRegressor(max_depth=10) # date相对最高 //0.3088235294117647
 # clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均 //0.9693116830065359
 # clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
-clf = KNeighborsRegressor() #0.04396446078431373
+# clf = KNeighborsRegressor() #0.04396446078431373
 # clf = SVC()
 
-# clf = RandomForestRegressor(n_estimators=100,oob_score = 'true',max_depth=2,max_features='log2',bootstrap='true')
+clf = RandomForestRegressor(n_estimators=100,oob_score = 'true',max_depth=2,max_features='log2',bootstrap='true')
 
-
-
-
-
+# 误差在70Wh内正确率： 0.889683350357508
+# 误差在60Wh内正确率： 0.834014300306435
+# 误差在50Wh内正确率： 0.778855975485189
+# 误差在40Wh内正确率： 0.618488253319714
+# 误差在30Wh内正确率： 0.454545454545454
+# 误差在20Wh内正确率： 0.270173646578141
 
 #拟合模型
 clf.fit(X, y)
@@ -160,7 +143,7 @@ pd.DataFrame({"Id": range(1, len(correct_target)+1), "Label": correct_target}).t
 
 # 误差在 n Wh内正确率
 a = 0
-wucha = 50
+wucha = 80
 for i in range(len(predict_data)):
     if abs((predict_target - correct_target)[i])<wucha:
         a += 1
