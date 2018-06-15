@@ -29,7 +29,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
-
+from sklearn.svm import SVC
 
 def load_csv(filename):  #导入csv文件
     dataset = list()
@@ -126,7 +126,7 @@ for i in range(len(X)):
 
 
 
-from sklearn.svm import SVC
+
 # 训练模型，限制树的最大深度X
 # clf = DecisionTreeClassifier(max_depth=4) # date相关性最高
 # clf = DecisionTreeRegressor(max_depth=10) # date相对最高
@@ -143,24 +143,16 @@ print('----------y_importances----------','\n',y_importances)
 data = 'feature_names-26.csv'
 x_importances = load_csv(data)[0]
 
-
-
 print('----------x_importances----------','\n',x_importances)
-
 
 y_pos = np.arange(len(x_importances))
 
 print('----------y_pos----------','\n',y_pos)
 
-# paiming = min(x_importances)
-# print(paiming)
-
-
-
 plt.barh(y_pos, y_importances, align='center')
 plt.yticks(y_pos, x_importances)
 plt.xlabel('Importances')
-plt.xlim(0,1)
+plt.xlim(0,0.3)
 plt.title('Features Importances')
 plt.tight_layout()
 plt.show()

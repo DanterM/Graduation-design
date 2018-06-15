@@ -66,7 +66,6 @@ for i in range(len(train_data)):
 
 # print(X)
 
-
 # 分钟数处理时间
 # for i in range(len(X)):
 #     chuli = X[i][0].split(':')
@@ -102,16 +101,11 @@ print('----------data.csv导入成功----------')
 
 train_target = load_csv('target.csv')
 print('----------target.csv导入成功----------')
-# 处理结果target数组 得到y
 a = []
 for i in train_target:
-    # print(i)
     a.append(float(i[0]))
-    # a.append(i[0])
-
 train_target = a
 y = train_target[:int(len(train_target)*9/10)]
-# print(len(y))# 13056
 print('----------target.csv处理完成----------')
 
 # print(y)
@@ -124,20 +118,11 @@ print('----------target.csv处理完成----------')
 # clf = DecisionTreeRegressor(max_depth=10) # date相对最高 //0.3088235294117647
 # clf = RandomForestClassifier(oob_score = 'true',random_state =50) # 平均 //0.9693116830065359
 # clf = RandomForestRegressor(n_estimators=1000,oob_score = 'true') # 平均 //0.7679738562091504
-# clf = KNeighborsRegressor() //0.04396446078431373
+clf = KNeighborsRegressor() #0.04396446078431373
 # clf = SVC()
 
-clf = RandomForestRegressor(n_estimators=100,oob_score = 'true',max_depth=1)
+# clf = RandomForestRegressor(n_estimators=100,oob_score = 'true',max_depth=2,max_features='log2',bootstrap='true')
 
-# 无max_depth=3属性 误差在100(10%)Wh内正确率： 0.625638406537283
-# 无max_depth=3属性 误差在100(10%)Wh内正确率： 0.479570990806946
-
-
-# 有max_depth=2属性 误差在50Wh内正确率： 0.6966292134831461
-# 有max_depth=2属性 误差在50Wh内正确率   0.7323799795709908
-# 有max_depth=3属性 误差在50Wh内正确率： 0.7114402451481103
-# 有max_depth=4属性 误差在50Wh内正确率： 0.6353421859039836
-# 有max_depth=30属性 误差在50Wh内正确率： 0.4790602655771195
 
 
 
@@ -182,24 +167,17 @@ for i in range(len(predict_data)):
 acc = a/len(predict_data)
 
 
-
-# print('误差在20Wh(2%)内正确率：',acc,'\n')  #// 0.34
-# print('误差在50(5%)Wh内正确率：',acc,'\n')  #// 0.4576098059244127
 print('误差在'+ str(wucha) +'Wh内正确率：',acc,'\n')  #// 0.643003064351379
 
-
-# print('误差在20Wh内正确率：',acc,'\n')  #// 0.8401756535947712
 
 
 
 # 评价函数
 
-# 计算RMSE
+# 计算RMSE 越小越好
 print('----------RMSE----------')
 rmse = np.sqrt(((predict_target - correct_target) ** 2).mean())
 print(rmse,'\n')
-
-
 
 
 # R方 越接近1 越好

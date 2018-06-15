@@ -12,7 +12,6 @@ import matplotlib
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.svm import SVC
 
-
 def load_csv(filename): # 导入csv文件
     dataset = list()
     with open(filename, 'r') as file:
@@ -99,11 +98,12 @@ print('----------target.csv处理完成----------')
 timelist = []
 acclist = []
 
-for time in range(1,1000,100):
+# range(1,1000,100)
 
+for time in range(1,100):
 
-    clf = RandomForestRegressor(n_estimators=time, oob_score='true', max_depth=2)
-
+    # clf = RandomForestRegressor(n_estimators=100, oob_score='true', max_depth=2,max_features='log2',min_samples_split=time)
+    clf = KNeighborsRegressor(n_neighbors=time)
 
 
 
@@ -126,9 +126,10 @@ for time in range(1,1000,100):
     plt.plot(timelist, acclist)
 
 matplotlib.rcParams['font.family']='SimHei'
-my_x_ticks = np.arange(1, 10, 1)
+my_x_ticks = np.arange(0, 100, 10)
 plt.xticks(my_x_ticks)  # 由于横轴的数据太长，旋转90度，竖着显示
-plt.xlabel("max_depth", fontproperties='SimHei')  # 指定横轴和纵轴的标签
+plt.xticks(fontsize=10)
+plt.xlabel("canshu", fontproperties='SimHei')  # 指定横轴和纵轴的标签
 plt.ylabel("acc")
 # plt.title("最大深度-正确率")  # 标题
 plt.show()
