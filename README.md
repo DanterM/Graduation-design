@@ -1,6 +1,11 @@
 
 # 毕业设计-基于随机森林对建筑能耗进行预测
 
+环境配置
+  8
+macOS High Sierra10.13.5，Python3.6，PyCharm
+
+
 所用数据集-->energydata、RECS
 
 ## 实现过程
